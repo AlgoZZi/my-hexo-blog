@@ -4,3 +4,4 @@ public/
 .deploy/
 .DS_Store
 *.log
+.deploy_git/
